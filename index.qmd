@@ -1,12 +1,12 @@
 ---
-title: "Karol Bolbotowski"
+title: "Karol Bołbotowski"
 about:
   template: jolla
   image: profile.jpg
   links:
     - icon: envelope
       text: Email
-      href: "mailto:karol.bolbotowski@pw.edu.pl"
+      href: "mailto:k.bolbotowski@mimuw.edu.pl"
     - icon: github
       text: GitHub
       href: "https://github.com/YOUR-GITHUB-USERNAME"

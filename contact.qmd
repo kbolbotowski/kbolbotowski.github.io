@@ -2,11 +2,11 @@
 title: "Contact"
 ---
 
-**Karol Bolbotowski**  
-Faculty / Department  
-Warsaw University of Technology  
+**Karol Bołbotowski**  
+Faculty of Mathematics, Informatics and Mechanics
+University of Warsaw 
 
-Email: [karol.bolbotowski@pw.edu.pl](mailto:karol.bolbotowski@pw.edu.pl)
+Email: [k.bolbotowski@mimuw.edu.pl](mailto:k.bolbotowski@mimuw.edu.pl)
 
 Office: [building / room]  
 Address: [institutional address]
