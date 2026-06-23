@@ -6,7 +6,7 @@ title: "Contact"
 Faculty / Department  
 Warsaw University of Technology  
 
-Email: k.bolbotowskiAT.mimuw.edu.pl
+Email: [k.bolbotowski@mimuw.edu.pl](mailto:k.bolbotowski@mimuw.edu.pl)
 
 Office: [building / room]  
 Address: [institutional address]
