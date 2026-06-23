@@ -1,5 +1,5 @@
 ---
-title: "Karol Bolbotowski"
+title: "Karol Bołbotowski"
 about:
   template: jolla
   image: profile.jpg
