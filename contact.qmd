@@ -1,0 +1,19 @@
+---
+title: "Contact"
+---
+
+**Karol Bolbotowski**  
+Faculty / Department  
+Warsaw University of Technology  
+
+Email: [karol.bolbotowski@pw.edu.pl](mailto:karol.bolbotowski@pw.edu.pl)
+
+Office: [building / room]  
+Address: [institutional address]
+
+## Links
+
+- [Google Scholar](https://scholar.google.com/citations?user=YOUR-ID)
+- [ORCID](https://orcid.org/YOUR-ORCID)
+- [arXiv](https://arxiv.org/search/math?searchtype=author&query=Bolbotowski%2C+K)
+- [GitHub](https://github.com/YOUR-GITHUB-USERNAME)

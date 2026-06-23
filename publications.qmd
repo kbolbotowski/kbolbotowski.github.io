@@ -1,0 +1,23 @@
+---
+title: "Publications"
+---
+
+## Preprints
+
+1. **Karol Bolbotowski**, *Title of preprint*, arXiv:XXXX.XXXXX, 2026.  
+   [arXiv](https://arxiv.org/) · [PDF](#)
+
+## Journal articles
+
+1. **Karol Bolbotowski**, Coauthor, *Title of article*, Journal Name, volume, pages, year.  
+   [DOI](#) · [arXiv](#) · [PDF](#)
+
+## Notes and expository writing
+
+1. *Title of note*, year.  
+   [PDF](#)
+
+<!--
+Later, you can automate this page from publications.bib.
+For now, a manually curated list often looks cleaner and is easier to maintain.
+-->

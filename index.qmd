@@ -1,0 +1,38 @@
+---
+title: "Karol Bolbotowski"
+about:
+  template: jolla
+  image: profile.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: "mailto:karol.bolbotowski@pw.edu.pl"
+    - icon: github
+      text: GitHub
+      href: "https://github.com/YOUR-GITHUB-USERNAME"
+    - icon: mortarboard
+      text: Google Scholar
+      href: "https://scholar.google.com/citations?user=YOUR-ID"
+---
+
+I am a mathematician interested in **[your area 1]**, **[your area 2]**, and **[your area 3]**.
+
+My current research focuses on:
+
+- [Research topic 1]
+- [Research topic 2]
+- [Research topic 3]
+
+You can find my publications, preprints, teaching materials, and contact information on this website.
+
+## News
+
+- **June 2026:** Website launched.
+- **[Month Year]:** [Add recent paper, talk, course, or conference item.]
+
+## Selected publications
+
+1. [Author list], *Title of paper*, Journal / arXiv, year.
+2. [Author list], *Title of paper*, Journal / arXiv, year.
+
+See the [publications page](publications.qmd) for a fuller list.

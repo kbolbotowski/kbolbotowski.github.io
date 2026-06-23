@@ -1,0 +1,22 @@
+/* Small, clean academic-site customizations */
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+}
+
+.quarto-title-block .quarto-title-banner {
+  background: transparent;
+}
+
+a {
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+main {
+  line-height: 1.65;
+}

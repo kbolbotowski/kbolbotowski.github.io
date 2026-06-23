@@ -1,0 +1,30 @@
+---
+title: "Research"
+---
+
+## Research interests
+
+My research interests include:
+
+- [Area 1]
+- [Area 2]
+- [Area 3]
+- [Area 4]
+
+## Research overview
+
+Write one or two paragraphs here explaining your mathematical interests in a way that is useful for other mathematicians but still readable for visitors from nearby areas.
+
+For example:
+
+> I am interested in problems at the interface of [field A] and [field B]. A recurring theme in my work is [theme], especially in connection with [objects / methods / conjectures].
+
+## Current projects
+
+### Project title 1
+
+Brief description. Links to notes, preprints, code, or collaborators can go here.
+
+### Project title 2
+
+Brief description.

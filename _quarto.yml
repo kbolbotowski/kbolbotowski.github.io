@@ -1,0 +1,42 @@
+project:
+  type: website
+
+website:
+  title: "Karol Bolbotowski"
+  description: "Academic website"
+  site-url: "https://YOUR-GITHUB-USERNAME.github.io"
+  navbar:
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        href: research.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Talks
+        href: talks.qmd
+      - text: CV
+        href: cv.qmd
+      - text: Contact
+        href: contact.qmd
+  page-footer:
+    left: "© 2026 Karol Bolbotowski"
+    right:
+      - text: GitHub
+        href: "https://github.com/YOUR-GITHUB-USERNAME"
+      - text: ORCID
+        href: "https://orcid.org/YOUR-ORCID"
+      - text: Google Scholar
+        href: "https://scholar.google.com/citations?user=YOUR-ID"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    number-sections: false
+
+bibliography: publications.bib
+csl: apa.csl
