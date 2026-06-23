@@ -6,7 +6,7 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: "mailto:karol.bolbotowski@pw.edu.pl"
+      text: k.bolbotowski'at'.mimuw.edu.pl
     - icon: github
       text: GitHub
       href: "https://github.com/YOUR-GITHUB-USERNAME"
