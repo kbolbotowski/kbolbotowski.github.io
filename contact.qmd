@@ -2,8 +2,8 @@
 title: "Contact"
 ---
 
-**Karol Bolbotowski**  
-Faculty of Mathematics, Informatics and Mechanics 
+**Karol Bołbotowski**  
+Faculty of Mathematics, Informatics and Mechanics
 University of Warsaw 
 
 Email: [k.bolbotowski@mimuw.edu.pl](mailto:k.bolbotowski@mimuw.edu.pl)
