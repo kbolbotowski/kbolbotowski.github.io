@@ -1,43 +1,38 @@
 ---
 title: "Karol Bolbotowski"
+about:
+  template: jolla
+  image: profile.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: "mailto:karol.bolbotowski@pw.edu.pl"
+    - icon: github
+      text: GitHub
+      href: "https://github.com/YOUR-GITHUB-USERNAME"
+    - icon: mortarboard
+      text: Google Scholar
+      href: "https://scholar.google.com/citations?user=YOUR-ID"
 ---
 
 I am a mathematician interested in **[your area 1]**, **[your area 2]**, and **[your area 3]**.
 
-I am affiliated with the **Warsaw University of Technology**.
-
-## Research interests
-
-My research interests include:
+My current research focuses on:
 
 - [Research topic 1]
 - [Research topic 2]
 - [Research topic 3]
-- [Research topic 4]
+
+You can find my publications, preprints, teaching materials, and contact information on this website.
 
 ## News
 
 - **June 2026:** Website launched.
-- **[Month Year]:** Add a recent paper, talk, course, or conference item.
-- **[Month Year]:** Add another update here.
+- **[Month Year]:** [Add recent paper, talk, course, or conference item.]
 
 ## Selected publications
 
-1. **Karol Bolbotowski**, *Title of preprint*, arXiv:XXXX.XXXXX, 2026.  
-   [arXiv](#) · [PDF](#)
+1. [Author list], *Title of paper*, Journal / arXiv, year.
+2. [Author list], *Title of paper*, Journal / arXiv, year.
 
-2. **Karol Bolbotowski**, Coauthor, *Title of article*, Journal Name, volume, pages, year.  
-   [DOI](#) · [arXiv](#) · [PDF](#)
-
-See the full [publications page](publications.qmd).
-
-## Contact
-
-Email: [karol.bolbotowski@pw.edu.pl](mailto:karol.bolbotowski@pw.edu.pl)
-
-Links:
-
-- [Google Scholar](#)
-- [ORCID](#)
-- [arXiv](https://arxiv.org/search/math?searchtype=author&query=Bolbotowski%2C+K)
-- [GitHub](https://github.com/kbolbotowski)
+See the [publications page](publications.qmd) for a fuller list.

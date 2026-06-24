@@ -1,34 +1,22 @@
-/* Simple academic layout */
-
-body {
-  line-height: 1.65;
-}
+/* Small, clean academic-site customizations */
 
 .navbar-brand {
   font-weight: 600;
-}
-
-main.content {
-  max-width: 850px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 h1, h2, h3 {
   letter-spacing: -0.02em;
 }
 
-h1 {
-  margin-bottom: 1.4rem;
-}
-
-h2 {
-  margin-top: 2.2rem;
-  border-bottom: 1px solid #e6e8eb;
-  padding-bottom: 0.25rem;
+.quarto-title-block .quarto-title-banner {
+  background: transparent;
 }
 
 a {
   text-decoration-thickness: 0.08em;
   text-underline-offset: 0.18em;
+}
+
+main {
+  line-height: 1.65;
 }

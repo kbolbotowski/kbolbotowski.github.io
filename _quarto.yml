@@ -4,7 +4,7 @@ project:
 website:
   title: "Karol Bolbotowski"
   description: "Academic website"
-  site-url: "https://kbolbotowski.github.io"
+  site-url: "https://YOUR-GITHUB-USERNAME.github.io"
   navbar:
     right:
       - text: Home
@@ -24,10 +24,12 @@ website:
   page-footer:
     left: "© 2026 Karol Bolbotowski"
     right:
-      - text: Email
-        href: "mailto:karol.bolbotowski@pw.edu.pl"
       - text: GitHub
-        href: "https://github.com/kbolbotowski"
+        href: "https://github.com/YOUR-GITHUB-USERNAME"
+      - text: ORCID
+        href: "https://orcid.org/YOUR-ORCID"
+      - text: Google Scholar
+        href: "https://scholar.google.com/citations?user=YOUR-ID"
 
 format:
   html:
@@ -37,3 +39,4 @@ format:
     number-sections: false
 
 bibliography: publications.bib
+csl: apa.csl
