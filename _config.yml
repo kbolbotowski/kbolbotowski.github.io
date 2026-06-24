@@ -22,7 +22,7 @@ repository : "kbolbotowski/kbolbotowski.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "KarolBolbotowski_resized.png"
   name             : "Karol Bołbotowski"
   pronouns         : # example: "she/her"  
   bio              : "Mathematician"
