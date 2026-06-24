@@ -6,7 +6,6 @@ website:
   description: "Academic website"
   site-url: "https://kbolbotowski.github.io"
   navbar:
-    pinned: true
     right:
       - text: Home
         href: index.qmd
@@ -34,7 +33,7 @@ format:
   html:
     theme: cosmo
     css: styles.css
-    toc: false
-    page-layout: full
+    toc: true
+    number-sections: false
 
 bibliography: publications.bib
