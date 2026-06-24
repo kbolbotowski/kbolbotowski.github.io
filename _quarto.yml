@@ -2,10 +2,11 @@ project:
   type: website
 
 website:
-  title: "Karol Bołbotowski"
+  title: "Karol Bolbotowski"
   description: "Academic website"
-  site-url: "https://YOUR-GITHUB-USERNAME.github.io"
+  site-url: "https://kbolbotowski.github.io"
   navbar:
+    pinned: true
     right:
       - text: Home
         href: index.qmd
@@ -24,19 +25,16 @@ website:
   page-footer:
     left: "© 2026 Karol Bolbotowski"
     right:
+      - text: Email
+        href: "mailto:karol.bolbotowski@pw.edu.pl"
       - text: GitHub
-        href: "https://github.com/YOUR-GITHUB-USERNAME"
-      - text: ORCID
-        href: "https://orcid.org/YOUR-ORCID"
-      - text: Google Scholar
-        href: "https://scholar.google.com/citations?user=YOUR-ID"
+        href: "https://github.com/kbolbotowski"
 
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
-    number-sections: false
+    toc: false
+    page-layout: full
 
 bibliography: publications.bib
-csl: apa.csl

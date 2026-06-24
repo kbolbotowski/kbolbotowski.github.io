@@ -1,38 +1,86 @@
 ---
-title: "Karol Bołbotowski"
-about:
-  template: jolla
-  image: profile.jpg
-  links:
-    - icon: envelope
-      text: Email
-      href: "mailto:k.bolbotowski@mimuw.edu.pl"
-    - icon: github
-      text: GitHub
-      href: "https://github.com/YOUR-GITHUB-USERNAME"
-    - icon: mortarboard
-      text: Google Scholar
-      href: "https://scholar.google.com/citations?user=YOUR-ID"
+title: "Home"
 ---
 
-I am a mathematician interested in **[your area 1]**, **[your area 2]**, and **[your area 3]**.
+<div class="hero">
 
-My current research focuses on:
+<div class="hero-text">
+
+<p class="eyebrow">Mathematician</p>
+
+# Karol Bolbotowski
+
+<p class="subtitle">
+I am a mathematician interested in <strong>[your area 1]</strong>,
+<strong>[your area 2]</strong>, and <strong>[your area 3]</strong>.
+</p>
+
+<div class="button-row">
+<a class="button primary" href="publications.qmd">Publications</a>
+<a class="button" href="research.qmd">Research</a>
+<a class="button" href="cv.qmd">CV</a>
+<a class="button" href="mailto:karol.bolbotowski@pw.edu.pl">Email</a>
+</div>
+
+</div>
+
+<div class="hero-card">
+
+## Contact
+
+**Karol Bolbotowski**  
+Warsaw University of Technology  
+
+[karol.bolbotowski@pw.edu.pl](mailto:karol.bolbotowski@pw.edu.pl)
+
+<br>
+
+## Links
+
+[Google Scholar](#)  
+[ORCID](#)  
+[arXiv](https://arxiv.org/search/math?searchtype=author&query=Bolbotowski%2C+K)  
+[GitHub](https://github.com/kbolbotowski)
+
+</div>
+
+</div>
+
+<div class="homepage-grid">
+
+<section class="card">
+
+## Research interests
 
 - [Research topic 1]
 - [Research topic 2]
 - [Research topic 3]
+- [Research topic 4]
 
-You can find my publications, preprints, teaching materials, and contact information on this website.
+</section>
+
+<section class="card">
 
 ## News
 
 - **June 2026:** Website launched.
-- **[Month Year]:** [Add recent paper, talk, course, or conference item.]
+- **[Month Year]:** Add recent paper, talk, course, or conference item.
+- **[Month Year]:** Add another update here.
+
+</section>
+
+</div>
+
+<section class="wide-card">
 
 ## Selected publications
 
-1. [Author list], *Title of paper*, Journal / arXiv, year.
-2. [Author list], *Title of paper*, Journal / arXiv, year.
+1. **Karol Bolbotowski**, *Title of preprint*, arXiv:XXXX.XXXXX, 2026.  
+   [arXiv](#) · [PDF](#)
 
-See the [publications page](publications.qmd) for a fuller list.
+2. **Karol Bolbotowski**, Coauthor, *Title of article*, Journal Name, volume, pages, year.  
+   [DOI](#) · [arXiv](#) · [PDF](#)
+
+See the full [publications page](publications.qmd).
+
+</section>

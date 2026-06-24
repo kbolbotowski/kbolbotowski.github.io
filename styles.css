@@ -1,22 +1,146 @@
-/* Small, clean academic-site customizations */
+/* Clean academic layout */
 
-.navbar-brand {
-  font-weight: 600;
+:root {
+  --max-width: 1100px;
+  --border: #e6e8eb;
+  --soft-bg: #f7f8fa;
+  --text-muted: #5f6b7a;
 }
 
-h1, h2, h3 {
+body {
+  line-height: 1.65;
+}
+
+.navbar {
+  border-bottom: 1px solid var(--border);
+}
+
+.navbar-brand {
+  font-weight: 700;
   letter-spacing: -0.02em;
 }
 
-.quarto-title-block .quarto-title-banner {
-  background: transparent;
+.quarto-title {
+  display: none;
+}
+
+main.content {
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(260px, 0.9fr);
+  gap: 2rem;
+  align-items: stretch;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-text {
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 2.4rem;
+  background: linear-gradient(180deg, #ffffff 0%, var(--soft-bg) 100%);
+}
+
+.hero-text h1 {
+  font-size: clamp(2.4rem, 5vw, 4.4rem);
+  line-height: 1;
+  letter-spacing: -0.06em;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  max-width: 760px;
+  color: #222;
+}
+
+.hero-card,
+.card,
+.wide-card {
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 1.5rem;
+  background: #ffffff;
+}
+
+.hero-card {
+  background: var(--soft-bg);
+}
+
+.hero-card h2,
+.card h2,
+.wide-card h2 {
+  margin-top: 0;
+  letter-spacing: -0.03em;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 1.4rem;
+}
+
+.button {
+  display: inline-block;
+  border: 1px solid #cfd6df;
+  border-radius: 999px;
+  padding: 0.55rem 0.95rem;
+  text-decoration: none;
+  font-weight: 600;
+  background: #ffffff;
+}
+
+.button:hover {
+  text-decoration: none;
+  border-color: #6c7684;
+}
+
+.button.primary {
+  background: #1f2937;
+  color: #ffffff;
+  border-color: #1f2937;
+}
+
+.homepage-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.wide-card {
+  margin-bottom: 2rem;
 }
 
 a {
-  text-decoration-thickness: 0.08em;
   text-underline-offset: 0.18em;
 }
 
-main {
-  line-height: 1.65;
+@media (max-width: 800px) {
+  .hero,
+  .homepage-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-text {
+    padding: 1.6rem;
+  }
 }
