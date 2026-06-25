@@ -19,7 +19,7 @@ author_profile: true
   counter-increment: pub-counter;
   display: flex;
   align-items: flex-start;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.25em;
   line-height: 1.45;
 }
 
@@ -27,7 +27,6 @@ author_profile: true
   content: "[" counter(pub-counter) "]";
   flex: 0 0 3em;
   margin-right: 0.75em;
-  padding-top: 0;
 }
 
 .pub-entry {
@@ -35,22 +34,19 @@ author_profile: true
   min-width: 0;
 }
 
-.pub-entry p {
-  margin-top: 0;
-  margin-bottom: 0.25em;
-}
-
-.pub-entry p:last-child {
-  margin-bottom: 0;
+.pub-citation p {
+  display: inline;
+  margin: 0;
 }
 
 .pub-links {
-  margin-top: 0.25em;
+  display: inline;
+  margin-left: 0.35em;
   font-size: 0.9em;
 }
 
 .pub-links a {
-  margin-right: 0.6em;
+  margin-right: 0.45em;
   white-space: nowrap;
 }
 </style>
@@ -61,15 +57,17 @@ author_profile: true
   <li>
     <div class="pub-entry">
       {% if post.citation %}
-        {{ post.citation | markdownify }}
+        <span class="pub-citation">
+          {{ post.citation | markdownify }}
+        </span>
       {% else %}
-        <p>
+        <span class="pub-citation">
           {{ post.title }}{% if post.venue %}, <em>{{ post.venue }}</em>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}.
-        </p>
+        </span>
       {% endif %}
 
       {% if post.paperurl or post.bibtexurl or post.slidesurl or post.codeurl %}
-        <div class="pub-links">
+        <span class="pub-links">
           {% if post.paperurl %}
             <a href="{{ post.paperurl }}">[paper]</a>
           {% endif %}
@@ -82,7 +80,7 @@ author_profile: true
           {% if post.codeurl %}
             <a href="{{ post.codeurl }}">[code]</a>
           {% endif %}
-        </div>
+        </span>
       {% endif %}
     </div>
   </li>
