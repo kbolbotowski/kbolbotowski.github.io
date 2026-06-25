@@ -1,10 +1,10 @@
 ---
-title: "Setting the Free Material Design problem through the methods of optimal mass distribution"
+title: "The Isotropic Material Design methods with the cost expressed by the Lp-norm"
 collection: publications
-permalink: /publication/CalcVar2022
-date: 2022-03-01
-venue: 'Calculus of Variations and Partial Differential Equations'
-paperurl: 'https://link.springer.com/content/pdf/10.1007/s00526-022-02186-8.pdf'
-citation: >
-  Bołbotowski, K., Lewiński, T.: Setting the Free Material Design problem through the methods of optimal mass distribution. *Calc. Var. Partial Differ. Equ.*, 61 Article no. 76, 2022.
+permalink: /publication/CAMWA2026
+date: 2025-02-01
+venue: 'Computers and Mathematics with Applications'
+paperurl: 'https://arxiv.org/pdf/2502.03161'
+citation_html: >
+  Bołbotowski, K., Czarnecki, S., Lewiński, T.: The Isotropic Material Design methods with the cost expressed by the \(L^p\)-norm. Preprint arXiv:2502.03161, 2025.
 ---
