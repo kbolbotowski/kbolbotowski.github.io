@@ -1,9 +1,9 @@
 ---
-title: "Optimal design of plane elastic membranes using the convexified F&quot;oppl’s model"
+title: "Optimal design of plane elastic membranes using the convexified Föppl's model"
 collection: publications
-permalink: /publication/2024-01-01-Optimal-design-of-plane-elastic-membranes-using-the-convexified-Foppls-model
+permalink: /publication/AMO2024
 date: 2024-01-01
-venue: 'Applied Mathematics &amp; Optimization'
-citation: ' Karol Bolbotowski, &quot;Optimal design of plane elastic membranes using the convexified F&amp;quot;oppl’s model.&quot; Applied Mathematics &amp;amp; Optimization, 2024.'
+venue: 'Applied Mathematics & Optimization'
+citation: ' Bołbotowski, K.: Optimal design of plane elastic membranes using the convexified Föppl's model. Appl. Math. Optim. 90 Article no. 23, 2024.'
 ---
 Use [Google Scholar](https://scholar.google.com/scholar?q=Optimal+design+of+plane+elastic+membranes+using+the+convexified+F&quot;oppl’s+model){:target="_blank"} for full citation
