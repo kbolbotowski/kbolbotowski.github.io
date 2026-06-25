@@ -1,3 +1,4 @@
+```html
 ---
 layout: archive
 title: "Publications"
@@ -27,10 +28,12 @@ author_profile: true
   content: "[" counter(pub-counter) "]";
   flex: 0 0 3em;
   margin-right: 0.75em;
+  padding-top: 0;
 }
 
 .pub-entry {
   flex: 1;
+  min-width: 0;
 }
 
 .pub-entry p {
@@ -38,15 +41,18 @@ author_profile: true
   margin-bottom: 0.25em;
 }
 
+.pub-entry p:last-child {
+  margin-bottom: 0;
+}
+
 .pub-links {
   margin-top: 0.25em;
   font-size: 0.9em;
 }
-</style>
 
-.pub-links {
-  margin-top: 0.15em;
-  font-size: 0.9em;
+.pub-links a {
+  margin-right: 0.6em;
+  white-space: nowrap;
 }
 </style>
 
@@ -54,25 +60,33 @@ author_profile: true
 {% assign publications = site.publications | sort: "date" | reverse %}
 {% for post in publications %}
   <li>
-    <div>
+    <div class="pub-entry">
       {% if post.citation %}
         {{ post.citation | markdownify }}
       {% else %}
-        {{ post.title }}{% if post.venue %}, <em>{{ post.venue }}</em>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}.
+        <p>
+          {{ post.title }}{% if post.venue %}, <em>{{ post.venue }}</em>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}.
+        </p>
       {% endif %}
 
-      <div class="pub-links">
-        {% if post.paperurl %}
-          <a href="{{ post.paperurl }}">[paper]</a>
-        {% endif %}
-        {% if post.bibtexurl %}
-          <a href="{{ post.bibtexurl }}">[bibtex]</a>
-        {% endif %}
-        {% if post.slidesurl %}
-          <a href="{{ post.slidesurl }}">[slides]</a>
-        {% endif %}
-      </div>
+      {% if post.paperurl or post.bibtexurl or post.slidesurl or post.codeurl %}
+        <div class="pub-links">
+          {% if post.paperurl %}
+            <a href="{{ post.paperurl }}">[paper]</a>
+          {% endif %}
+          {% if post.bibtexurl %}
+            <a href="{{ post.bibtexurl }}">[bibtex]</a>
+          {% endif %}
+          {% if post.slidesurl %}
+            <a href="{{ post.slidesurl }}">[slides]</a>
+          {% endif %}
+          {% if post.codeurl %}
+            <a href="{{ post.codeurl }}">[code]</a>
+          {% endif %}
+        </div>
+      {% endif %}
     </div>
   </li>
 {% endfor %}
 </ol>
+```
