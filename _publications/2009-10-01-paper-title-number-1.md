@@ -1,4 +1,4 @@
-<img width="468" height="30" alt="image" src="https://github.com/user-attachments/assets/6cee061f-c279-40bc-8ae7-b5ea723d64a0" /><img width="468" height="30" alt="image" src="https://github.com/user-attachments/assets/f43430f6-d48e-44ab-840a-df338e83a431" />---
+---
 title: "Paper Title Number 1"
 collection: publications
 category: manuscripts
