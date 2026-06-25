@@ -5,6 +5,9 @@ permalink: /publication/PTRF2026
 date: 2025-11-01
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/pdf/2511.00232'
-citation: >
-  Bołbotowski, K., Bouchitté, G.: Sharp inequalities between Zolotarev and Wasserstein distances in \(\mathcal{P}_2(\mathbb{R}^d)\). Preprint arXiv:2511.00232, 2025.
+citation_html: >
+  Bołbotowski, K., Bouchitté, G.:
+  <em>Sharp inequalities between Zolotarev and Wasserstein distances in
+  \(\mathcal{P}_2(\mathbb{R}^d)\)</em>.
+  Preprint arXiv:2511.00232, 2025.
 ---
