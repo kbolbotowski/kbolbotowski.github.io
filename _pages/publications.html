@@ -34,8 +34,9 @@ author_profile: true
   min-width: 0;
 }
 
-.pub-citation {
+.pub-citation p {
   display: inline;
+  margin: 0;
 }
 
 .pub-links {
@@ -55,15 +56,15 @@ author_profile: true
 {% for post in publications %}
   <li>
     <div class="pub-entry">
-      <span class="pub-citation">
-        {% if post.citation_html %}
-          {{ post.citation_html }}
-        {% elsif post.citation %}
-          {{ post.citation | markdownify | remove: '<p>' | remove: '</p>' }}
-        {% else %}
+      {% if post.citation %}
+        <span class="pub-citation">
+          {{ post.citation | markdownify }}
+        </span>
+      {% else %}
+        <span class="pub-citation">
           {{ post.title }}{% if post.venue %}, <em>{{ post.venue }}</em>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}.
-        {% endif %}
-      </span>
+        </span>
+      {% endif %}
 
       {% if post.paperurl or post.bibtexurl or post.slidesurl or post.codeurl %}
         <span class="pub-links">
@@ -85,19 +86,3 @@ author_profile: true
   </li>
 {% endfor %}
 </ol>
-
-<script>
-window.MathJax = {
-  tex: {
-    inlineMath: [['\\(', '\\)']],
-    displayMath: [['\\[', '\\]']]
-  },
-  svg: {
-    fontCache: 'global'
-  }
-};
-</script>
-
-<script async id="MathJax-script"
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-</script>
