@@ -3,24 +3,10 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+mathjax: true
 ---
 
 {% include base_path %}
-
-<script>
-window.MathJax = {
-  tex: {
-    inlineMath: [['\\(', '\\)']],
-    displayMath: [['\\[', '\\]'], ['$$', '$$']]
-  },
-  svg: {
-    fontCache: 'global'
-  }
-};
-</script>
-<script async id="MathJax-script"
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-</script>
 
 <style>
 .bibliography {
@@ -49,6 +35,10 @@ window.MathJax = {
   min-width: 0;
 }
 
+.pub-citation {
+  display: inline;
+}
+
 .pub-citation p {
   display: inline;
   margin: 0;
@@ -71,15 +61,15 @@ window.MathJax = {
 {% for post in publications %}
   <li>
     <div class="pub-entry">
-      {% if post.citation %}
-        <span class="pub-citation">
-          {{ post.citation | markdownify }}
-        </span>
-      {% else %}
-        <span class="pub-citation">
+      <span class="pub-citation">
+        {% if post.citation_html %}
+          {{ post.citation_html }}
+        {% elsif post.citation %}
+          {{ post.citation | markdownify | remove: '<p>' | remove: '</p>' }}
+        {% else %}
           {{ post.title }}{% if post.venue %}, <em>{{ post.venue }}</em>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}.
-        </span>
-      {% endif %}
+        {% endif %}
+      </span>
 
       {% if post.paperurl or post.bibtexurl or post.slidesurl or post.codeurl %}
         <span class="pub-links">
@@ -101,3 +91,24 @@ window.MathJax = {
   </li>
 {% endfor %}
 </ol>
+
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(', '\\)']],
+    displayMath: [['\\[', '\\]'], ['$$', '$$']]
+  },
+  chtml: {
+    scale: 1
+  },
+  startup: {
+    pageReady: function () {
+      return MathJax.startup.defaultPageReady();
+    }
+  }
+};
+</script>
+
+<script defer id="MathJax-script"
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
