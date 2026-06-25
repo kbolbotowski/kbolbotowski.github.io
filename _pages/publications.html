@@ -5,32 +5,57 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
+<style>
+.bibliography {
+  list-style: none;
+  counter-reset: pub-counter;
+  padding-left: 0;
+}
+
+.bibliography li {
+  counter-increment: pub-counter;
+  display: grid;
+  grid-template-columns: 3em 1fr;
+  column-gap: 0.75em;
+  margin-bottom: 1em;
+  line-height: 1.45;
+}
+
+.bibliography li::before {
+  content: "[" counter(pub-counter) "]";
+}
+
+.pub-links {
+  margin-top: 0.15em;
+  font-size: 0.9em;
+}
+</style>
+
+<ol class="bibliography">
+{% assign publications = site.publications | sort: "date" | reverse %}
+{% for post in publications %}
+  <li>
+    <div>
+      {% if post.citation %}
+        {{ post.citation | markdownify }}
+      {% else %}
+        {{ post.title }}{% if post.venue %}, <em>{{ post.venue }}</em>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}.
       {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
 
-
-
+      <div class="pub-links">
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}">[paper]</a>
+        {% endif %}
+        {% if post.bibtexurl %}
+          <a href="{{ post.bibtexurl }}">[bibtex]</a>
+        {% endif %}
+        {% if post.slidesurl %}
+          <a href="{{ post.slidesurl }}">[slides]</a>
+        {% endif %}
+      </div>
+    </div>
+  </li>
+{% endfor %}
+</ol>
