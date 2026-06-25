@@ -3,7 +3,6 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
-mathjax: true
 ---
 
 {% include base_path %}
@@ -37,11 +36,6 @@ mathjax: true
 
 .pub-citation {
   display: inline;
-}
-
-.pub-citation p {
-  display: inline;
-  margin: 0;
 }
 
 .pub-links {
@@ -96,19 +90,14 @@ mathjax: true
 window.MathJax = {
   tex: {
     inlineMath: [['\\(', '\\)']],
-    displayMath: [['\\[', '\\]'], ['$$', '$$']]
+    displayMath: [['\\[', '\\]']]
   },
-  chtml: {
-    scale: 1
-  },
-  startup: {
-    pageReady: function () {
-      return MathJax.startup.defaultPageReady();
-    }
+  svg: {
+    fontCache: 'global'
   }
 };
 </script>
 
-<script defer id="MathJax-script"
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+<script async id="MathJax-script"
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
