@@ -12,20 +12,37 @@ author_profile: true
   list-style: none;
   counter-reset: pub-counter;
   padding-left: 0;
+  margin-left: 0;
 }
 
 .bibliography li {
   counter-increment: pub-counter;
-  display: grid;
-  grid-template-columns: 3em 1fr;
-  column-gap: 0.75em;
-  margin-bottom: 1em;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5em;
   line-height: 1.45;
 }
 
 .bibliography li::before {
   content: "[" counter(pub-counter) "]";
+  flex: 0 0 3em;
+  margin-right: 0.75em;
 }
+
+.pub-entry {
+  flex: 1;
+}
+
+.pub-entry p {
+  margin-top: 0;
+  margin-bottom: 0.25em;
+}
+
+.pub-links {
+  margin-top: 0.25em;
+  font-size: 0.9em;
+}
+</style>
 
 .pub-links {
   margin-top: 0.15em;
