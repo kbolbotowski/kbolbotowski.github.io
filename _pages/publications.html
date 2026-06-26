@@ -65,10 +65,13 @@ author_profile: true
         {% endif %}
       </span>
 
-      {% if post.paperurl or post.bibtexurl or post.slidesurl or post.codeurl %}
+      {% if post.paperurl or post.thesisurl or post.bibtexurl or post.slidesurl or post.codeurl %}
         <span class="pub-links">
           {% if post.paperurl %}
             <a href="{{ post.paperurl }}">[paper]</a>
+          {% endif %} 
+          {% if post.thesisurl %}
+            <a href="{{ post.thesisurl }}">[thesis]</a>
           {% endif %}
           {% if post.bibtexurl %}
             <a href="{{ post.bibtexurl }}">[bibtex]</a>
