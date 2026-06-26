@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Home"
+title                    : "K. Bołbotowski"
 title_separator          : "-"
 name                     : &name "Karol Bołbotowski"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -25,7 +25,7 @@ author:
   avatar           : "KarolBolbotowski_square.jpg"
   name             : "Karol Bołbotowski"
   pronouns         : # example: "she/her"  
-  bio              : "Mathematician"
+  bio              : "Calculus of Variations, focus on Optimal Transport and Optimal Design"
   location         : "Warsaw, PL"
   employer         : "University of Warsaw"
   uri              : # URL
