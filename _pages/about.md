@@ -6,4 +6,4 @@ redirect_from:
   - /about.html
 ---
 
-This is my website. More content to come soon!
+This is my website. More content to come soon! \( Z_2(\mu,\nu) \)
