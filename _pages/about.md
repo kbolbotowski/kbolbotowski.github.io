@@ -3,7 +3,7 @@ permalink: /
 author_profile: true
 ---
 
-This is a MathJax test: \(a^2+b^2=c^2\).
+This is a MathJax test: \\(a^2+b^2=c^2\\).
 
 \[
 W_2^2(\mu,\nu)
