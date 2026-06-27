@@ -34,14 +34,14 @@ Z_2(\mu,\nu) = \min_{\substack{\gamma \in\mathcal{P}(\mathbb{R}^d \times \mathbb
 $$
 
 $$
-	Z_2(\mu,\nu) = \min_{\substack{\gamma \in\mathcal{P}(\mathbb{R}^d \times \mathbb{R}^d) \\\ q \in \mathcal{M}( \mathbb{R}^d \times \mathbb{R}^d;\mathbb{R}^d) }}  \left\\{ \iint \frac{1}{2}\Big(\left|\tfrac{dq}{d\gamma}(x,y)-x\right|^2 + \left|\tfrac{dq}{d\gamma}(x,y)-y\right|^2 \Big) d\gamma(x,y) \ : \ \begin{array}{l}
+	Z_2(\mu,\nu) = \min_{\substack{\gamma \in\mathcal{P}(\mathbb{R}^d \times \mathbb{R}^d) \\\ q \in \mathcal{M}( \mathbb{R}^d \times \mathbb{R}^d;\mathbb{R}^d) }}  \left\{ \iint \frac{1}{2}\Big(\left|\tfrac{dq}{d\gamma}(x,y)-x\right|^2 + \left|\tfrac{dq}{d\gamma}(x,y)-y\right|^2 \Big) d\gamma(x,y) \ : \ \begin{array}{l}
 		\pi_1 \gamma = \mu, \\
 		\pi_2 \gamma=\nu,
 	\end{array} \ \begin{array}{l}
 		\pi_1  q = x \mu \\
 		\pi_2  q = y \nu
 	\end{array}
-	 \ \right\\}
+	 \ \right\}
 $$
 
 
