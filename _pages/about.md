@@ -11,6 +11,21 @@ Below I share some of the research themes in calculus of variations that I have 
 
 ...
 
+$$
+	Z_2(\mu,\nu) = \min\left\{ \iint \frac{1}{2}\Big(\left|\tfrac{dq}{d\gamma}-x\right|^2 + \left|\tfrac{dq}{d\gamma}-y\right|^2 \Big) d\gamma \ : \! 
+	\begin{array}{l}
+		\gamma \in\mathrm{P}\big(\R^d \times \R^d \big),\\
+		q \in \mathcal{M}( \R^d \times \R^d;\R^d),
+	\end{array} \!
+	\begin{array}{l}
+		\pi_1^\# \gamma = \mu, \\
+		\pi_2^\# \gamma=\nu,
+	\end{array} \! \begin{array}{l}
+		\pi_1^\#  q = x \mu \\
+		\pi_2^\#  q = y \nu
+	\end{array} \!\!  \right\}
+$$
+
 
 <figure>
   <img src="/images/research/sig7.png" alt="Optimal transport" style="max-width: 80%; display: block; margin: auto;">
