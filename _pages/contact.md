@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 Institute of Applied Mathematics and Mechanics  
-Faculty of Mathematics, Inforamtics and Mechanics  
+Faculty of Mathematics, Informatics and Mechanics  
 University of Warsaw  
 2 Banacha Street  
 02-097 Warsaw  
