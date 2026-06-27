@@ -18,11 +18,11 @@ $$
 		q \in \mathcal{M}( \mathbb{R}^d \times \mathbb{R}^d;\mathbb{R}^d),
 	\end{array} 
 	\begin{array}{l}
-		\pi_1^\# \gamma = \mu, \\
-		\pi_2^\# \gamma=\nu,
+		\pi_1^\\# \gamma = \mu, \\
+		\pi_2^\\# \gamma=\nu,
 	\end{array}  \begin{array}{l}
-		\pi_1^\#  q = x \mu \\
-		\pi_2^\#  q = y \nu
+		\pi_1^\\#  q = x \mu \\
+		\pi_2^\\#  q = y \nu
 	\end{array}   \right\\}
 $$
 
