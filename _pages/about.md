@@ -28,7 +28,7 @@ $$
 
 
 <figure>
-  <img src="/images/research/sig7.png" alt="Optimal transport" style="max-width: 80%; display: block; margin: auto;">
+  <img src="/images/research/sig7.png" alt="Optimal transport" style="max-width: 30%; display: block; margin: auto;">
   <figcaption style="text-align: center; font-size: 0.9em;">
     Example figure: transport between two probability distributions.
   </figcaption>
