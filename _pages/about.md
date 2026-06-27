@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "Karol Bołbotowski"
 author_profile: true
 ---
 
