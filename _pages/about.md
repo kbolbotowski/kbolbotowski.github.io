@@ -12,18 +12,18 @@ Below I share some of the research themes in calculus of variations that I have 
 ...
 
 $$
-	Z_2(\mu,\nu) = \min\left\{ \iint \frac{1}{2}\Big(\left|\tfrac{dq}{d\gamma}-x\right|^2 + \left|\tfrac{dq}{d\gamma}-y\right|^2 \Big) d\gamma \ : \! 
+	Z_2(\mu,\nu) = \min\left\{ \iint \frac{1}{2}\Big(\left|\tfrac{dq}{d\gamma}-x\right|^2 + \left|\tfrac{dq}{d\gamma}-y\right|^2 \Big) d\gamma \ : \ 
 	\begin{array}{l}
-		\gamma \in\mathrm{P}\big(\R^d \times \R^d \big),\\
-		q \in \mathcal{M}( \R^d \times \R^d;\R^d),
-	\end{array} \!
+		\gamma \in\mathrm{P}\big(\mathbb{R}^d \times \mathbb{R}^d \big),\\
+		q \in \mathcal{M}( \mathbb{R}^d \times \mathbb{R}^d;\mathbb{R}^d),
+	\end{array} 
 	\begin{array}{l}
 		\pi_1^\# \gamma = \mu, \\
 		\pi_2^\# \gamma=\nu,
-	\end{array} \! \begin{array}{l}
+	\end{array}  \begin{array}{l}
 		\pi_1^\#  q = x \mu \\
 		\pi_2^\#  q = y \nu
-	\end{array} \!\!  \right\}
+	\end{array}   \right\}
 $$
 
 
