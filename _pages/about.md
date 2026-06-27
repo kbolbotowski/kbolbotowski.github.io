@@ -7,6 +7,9 @@ I am a mathematician at the Faculty of Mathematics, Informatics and Mechanics of
 
 Below I present some of the research themes in calculus of variations that I have developed with my collaborators. Feel free to [contact](/contact/) me with questions!
 
+More content to come soon!
+
+<!--
 ## Topic #1: Kantorovich-Rubinstein duality beyond the first order
 
 ...
@@ -38,3 +41,4 @@ $$
 ## Selected publications
 
 A full list of my publications and preprints is available on the [Publications page](/publications/).
+-->
