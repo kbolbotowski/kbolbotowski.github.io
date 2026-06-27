@@ -3,7 +3,7 @@ permalink: /
 author_profile: true
 ---
 
-I am a mathematician working in the calculus of variations, optimal design, elasticity, and optimal transport. My research is concerned with variational models arising in analysis and mechanics, especially questions involving relaxation, asymptotic limits, and sharp inequalities.
+I am a mathematician at the Faculty of Mathematics, Informatics and Mechanics of the University of Warsaw. Starting from October 2026 I will hold there the position of Samuel Eilenberg Assistant Professor. Currently, I am a postdoc in a research project led by Błażej Miasojedow.
 
 A recurring theme in my work is to understand complicated variational problems by identifying their effective structure: convexified energies, limiting models, optimal constants, or appropriate distances between mathematical objects.
 
