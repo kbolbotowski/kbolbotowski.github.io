@@ -12,7 +12,7 @@ Below I share some of the research themes in calculus of variations that I have 
 ...
 
 $$
-	Z_2(\mu,\nu) = \min\left\{ \iint \frac{1}{2}\Big(\left|\tfrac{dq}{d\gamma}-x\right|^2 + \left|\tfrac{dq}{d\gamma}-y\right|^2 \Big) d\gamma \ : \ 
+	Z_2(\mu,\nu) = \min\left\\{ \iint \frac{1}{2}\Big(\left|\tfrac{dq}{d\gamma}-x\right|^2 + \left|\tfrac{dq}{d\gamma}-y\right|^2 \Big) d\gamma \ : \ 
 	\begin{array}{l}
 		\gamma \in\mathrm{P}\big(\mathbb{R}^d \times \mathbb{R}^d \big),\\
 		q \in \mathcal{M}( \mathbb{R}^d \times \mathbb{R}^d;\mathbb{R}^d),
@@ -23,7 +23,7 @@ $$
 	\end{array}  \begin{array}{l}
 		\pi_1^\#  q = x \mu \\
 		\pi_2^\#  q = y \nu
-	\end{array}   \right\}
+	\end{array}   \right\\}
 $$
 
 
