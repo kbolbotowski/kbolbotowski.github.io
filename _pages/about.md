@@ -19,9 +19,14 @@ One direction of my research concerns variational models for elastic structures 
 where \\(u\\) describes a deformation and \\(\chi\\) encodes the distribution of material. Such problems often lead to relaxation, convexification, and the emergence of effective energy densities.
 
 <figure>
-  <img src="/images/research/num_sigmaL-eps-converted-to.pdf" alt="Elasticity and optimal design" style="max-width: 80%; display: block; margin: auto;">
+  <iframe
+    src="/files/figures/num_sigmaL-eps-converted-to.pdf"
+    width="100%"
+    height="500px"
+    style="border: 1px solid #ddd;">
+  </iframe>
   <figcaption style="text-align: center; font-size: 0.9em;">
-    Example figure: an elastic membrane or an optimal material distribution.
+    Figure: an elastic membrane or an optimal material distribution.
   </figcaption>
 </figure>
 
