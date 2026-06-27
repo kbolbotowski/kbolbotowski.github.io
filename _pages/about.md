@@ -16,7 +16,7 @@ Z_2(\mu,\nu) = \min_{\substack{\gamma \in\mathcal{P}(\mathbb{R}^d \times \mathbb
 $$
 
 $$
-Z_2(\mu,\nu) = \min_{\substack{\gamma \in\mathcal{P}(\mathbb{R}^d \times \mathbb{R}^d) \\\ q \in \mathcal{M}( \mathbb{R}^d \times \mathbb{R}^d;\mathbb{R}^d) }} \left\\{ a \right\\}
+Z_2(\mu,\nu) = \min_{\substack{\gamma \in\mathcal{P}(\mathbb{R}^d \times \mathbb{R}^d) \\\ q \in \mathcal{M}( \mathbb{R}^d \times \mathbb{R}^d;\mathbb{R}^d) }} \left\{ a \right\}
 $$
 
 $$
