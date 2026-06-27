@@ -28,11 +28,11 @@ author:
   bio              : "Calculus of Variations focused on Optimal Transport and Design"
   location         : "Warsaw, PL"
   employer         : "University of Warsaw"
-  uri              : # URL
+  uri              : "https://www.mimuw.edu.pl/en/employees/317738/"
   email            : "k.bolbotowski@mimuw.edu.pl" 
 
   # Academic websites
-  academia         : "https://www.mimuw.edu.pl/en/employees/317738/"
+  academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=hihCiI4AAAAJ&hl=pl&oi=ao"
   inspire-hep      : # URL
