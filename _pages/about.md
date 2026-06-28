@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Mathematics of Optimal Transport and Design"
+title: "Mathematics of Optimal Transport and Optimal Design"
 author_profile: true
 ---
 
