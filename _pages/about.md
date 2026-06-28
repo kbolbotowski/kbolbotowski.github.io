@@ -31,6 +31,9 @@ $$
 	 \ \right\}
 $$
 
+$$
+\frac{1}{4}\, W_2^2(\mu,\nu) \ \leq \ Z_2(\mu,\nu) \ \leq \ \frac{1}{2} \, (\sigma_\mu + \sigma_\nu)\, W_2(\mu,\nu)
+$$
 
 <figure>
   <img src="/images/research/sig7.png" alt="Optimal transport" style="max-width: 30%; display: block; margin: auto;">
