@@ -9,13 +9,15 @@ Below I present some of the research themes in calculus of variations that I hav
 
 More content to come soon!
 
-<!--
+
 ## Topic #1: Kantorovich-Rubinstein duality beyond the first order
 
 ...
 
 
-
+$$
+	Z_2(\mu,\nu) = \sup \left\{ \int u\, d(\mu - \nu) \ : \  u\in C^{1,1}(\mathbb{R}^d), \ \ \mathrm{lip}(\nabla u) \leq 1  \ \right\}
+$$
 
 
 $$
@@ -41,4 +43,4 @@ $$
 ## Selected publications
 
 A full list of my publications and preprints is available on the [Publications page](/publications/).
--->
+
