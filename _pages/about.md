@@ -10,10 +10,10 @@ Below I present some of the research themes in calculus of variations that I hav
 
 ## Topic #1: Kantorovich-Rubinstein duality beyond the first order
 
-Famouosly, the classical K-R duality result puts an equality sign between the 1-Wasserstein distance (expressed by the Monge-Kantorovich optimal transport) and a supremum over the set of 1-Lipschitz potentials. V.M. Zolotarev has brought the latter formulation to higher orders. For example, given two probabilities \\( \mu,\nu \in \mathcal{P}(\mathbb{R}^d)\\) of finite second moments, the second Zolotarev distance reads,
+Famouosly, the classical K-R duality states an equality between the 1-Wasserstein distance (expressed by the Monge-Kantorovich optimal transport) and a supremum over the set of 1-Lipschitz potentials. V.M. Zolotarev has brought the latter formulation to higher orders. For example, given two probabilities \\( \mu,\nu \in \mathcal{P}(\mathbb{R}^d)\\) of finite second moments, the second Zolotarev distance reads,
 
 $$
-	Z_2(\mu,\nu) = \sup \left\{ \int u\, d(\mu - \nu) \ : \  u\in C^{1,1}(\mathbb{R}^d), \ \ \mathrm{lip}(\nabla u) \leq 1  \ \right\}
+	Z_2(\mu,\nu) = \sup \left\{ \int u\, d(\mu - \nu) \ : \  u\in C^{1,1}(\mathbb{R}^d), \ \ \mathrm{lip}(\nabla u) \leq 1  \ \right\},
 $$
 
 while \\( Z_1 = W_1 \\). Note that finiteness of \\(Z_2\\) requires a match of the barycentres of the two probabilities. 
