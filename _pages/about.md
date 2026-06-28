@@ -37,7 +37,7 @@ $$
 
 where \\(s_\mu, s_\nu\\) are the relevant standard deviations. The constants above are sharp.
 
-The beating heart of our K-R-type equality is the fact that taking a convex envelope preserves semi-concavity of a function.
+
 
 ## Topic #2: Optimal design of beam systems
 
