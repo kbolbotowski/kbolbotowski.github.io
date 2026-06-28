@@ -39,6 +39,10 @@ where \\(s_\mu, s_\nu\\) are the relevant standard deviations.
 
 The beating heart of our K-R-type equality is the fact that taking a convex envelope preserves semi-concavity of a function.
 
+## Topic #2: Optimal design of beam systems
+
+Still under construction!
+
 <figure>
   <img src="/images/research/sig7.png" alt="Optimal transport" style="max-width: 30%; display: block; margin: auto;">
   <figcaption style="text-align: center; font-size: 0.9em;">
@@ -47,7 +51,5 @@ The beating heart of our K-R-type equality is the fact that taking a convex enve
 </figure>
 
 
-## Selected publications
 
-A full list of my publications and preprints is available on the [Publications page](/publications/).
 
