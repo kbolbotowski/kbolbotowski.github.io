@@ -36,6 +36,8 @@ $$
 
 where \\(s_\mu, s_\nu\\) are the relevant standard deviations. The constants above are sharp.
 
+Our second-order Kantorovich-Rubinstein duality is at the core of the several topics exposed below.
+
 
 
 ## Topic #2: Optimal design of beam systems
