@@ -7,7 +7,7 @@ author_profile: true
 I am an assistant professor of mathematics at the University of Warsaw, and my area of expertise lies at the intersection of two fields in the calculus of variations: optimal transport and optimal structural design. The main goal of this webpage is to share some of the research ideas that I have developed together with my collaborators. Feel free to [reach out](/contact/) with questions!
 
 
-## Topic #1: Kantorovich-Rubinstein duality beyond the first order
+## 1. Kantorovich-Rubinstein duality beyond the first order
 
 The celebrated K-R theorem states an equality between the 1-Wasserstein distance and a supremum over the set of 1-Lipschitz potentials. V.M. Zolotarev has brought the latter formulation to higher orders. For example, given two *centred* probabilities \\( \mu,\nu \in \mathcal{P}(\mathbb{R}^d)\\) of finite second moments, the 2-Zolotarev distance reads,
 
@@ -40,7 +40,7 @@ Our second-order Kantorovich-Rubinstein duality is at the core of the several to
 
 
 
-## Topic #2: Optimal design of beam systems
+## 2. Optimal design of beam systems
 
 Still under construction!
 
