@@ -16,9 +16,7 @@ $$
 	Z_2(\mu,\nu) = \sup \left\{ \int u\, d(\mu - \nu) \ : \  u\in C^{1,1}(\mathbb{R}^d), \ \ \mathrm{lip}(\nabla u) \leq 1  \ \right\},
 $$
 
-while \\( Z_1 = W_1 \\). Note that finiteness of \\(Z_2\\) requires a match of the probabilities' barycentres.
-
-By definition, 
+K-R duality tells us that  \\( Z_1 = W_1 \\) can be expressed via the Monge-Kantorovich optimal transport for the distance cost. In a joint [paper](https://arxiv.org/pdf/2412.00516) with Guy Bouchitté we have found an optimal transport formulation that underpins the second-order case. 
 
 $$
 	Z_2(\mu,\nu) = \! \! \! \! \min_{\substack{\gamma \in\mathcal{P}(\mathbb{R}^d \times \mathbb{R}^d) \\\ q \in \mathcal{M}( \mathbb{R}^d \times \mathbb{R}^d;\mathbb{R}^d) }} \! \! \left\{ \iint \frac{1}{2}\Big(\left|\tfrac{dq}{d\gamma}(x,y)-x\right|^2 + \left|\tfrac{dq}{d\gamma}(x,y)-y\right|^2 \Big) d\gamma(x,y) \ : \ \begin{array}{l}
