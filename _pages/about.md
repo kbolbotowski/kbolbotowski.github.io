@@ -28,7 +28,7 @@ $$
 	\end{array}
 	 \ \right\}
 $$
-
+The beating heart of our K-R-type equality is the fact that taking a convex envelope preserves semi-concavity of a function.
 
 
 $$
