@@ -32,8 +32,10 @@ $$
 The first consequence of our new K-R-type equality is a sharp quantitative equivalence to 2-Wasserstein distance, which we have published in our <a href="https://arxiv.org/pdf/2511.00232" target="_blank" rel="noopener noreferrer">follow-up paper</a>,
 
 $$
-\frac{1}{4}\, W_2^2(\mu,\nu) \ \leq \ Z_2(\mu,\nu) \ \leq \ \frac{1}{2} \, (\sigma_\mu + \sigma_\nu)\, W_2(\mu,\nu)
+\frac{1}{4}\, W_2^2(\mu,\nu) \ \leq \ Z_2(\mu,\nu) \ \leq \ \frac{1}{2} \, (s_\mu + s_\nu)\, W_2(\mu,\nu)
 $$
+
+where \\(s_\mu, s_\nu\\) are the relevant standard deviations.
 
 The beating heart of our K-R-type equality is the fact that taking a convex envelope preserves semi-concavity of a function.
 
