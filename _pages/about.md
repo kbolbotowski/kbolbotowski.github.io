@@ -36,7 +36,7 @@ $$
 
 where \\(s_\mu, s_\nu\\) are the relevant standard deviations. The constants above are sharp.
 
-Our second-order Kantorovich-Rubinstein duality is at the core of the several topics exposed below.
+This second-order Kantorovich-Rubinstein duality is at the core of some of the topics that I expose below.
 
 
 
