@@ -44,9 +44,9 @@ where \\(s_\mu, s_\nu\\) are the relevant standard deviations. The constants abo
 Still under construction!
 
 <figure>
-  <img src="/images/research/sig7.png" alt="Optimal transport" style="max-width: 30%; display: block; margin: auto;">
+  <img src="/images/research/sig7.png" alt="Optimal transport" style="max-width: 70%; display: block; margin: auto;">
   <figcaption style="text-align: center; font-size: 0.9em;">
-    Example figure: transport between two probability distributions.
+    An optimal beam system that transfer the weight of the slab to five columns.
   </figcaption>
 </figure>
 
