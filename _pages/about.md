@@ -5,7 +5,7 @@ author_profile: true
 
 I am a mathematician at the Faculty of Mathematics, Informatics and Mechanics of the University of Warsaw. More info about me can be found [here](/aboutme/). 
 
-Below I present some of the research themes in calculus of variations that I have developed with my collaborators. Feel free to [contact](/contact/) me with questions!
+Below I present some of the research themes in calculus of variations that I have developed with my collaborators. Feel free to [reach out](/contact/) with questions!
 
 
 ## Topic #1: Kantorovich-Rubinstein duality beyond the first order
