@@ -12,12 +12,11 @@ More content to come soon!
 
 ## Topic #1: Kantorovich-Rubinstein duality beyond the first order
 
-Famouosly, the classical K-R duality result puts an equality sign between the 1-Wasserstein distance (expressed by the Monge-Kantorovich optimal transport) and a supremum over the set of 1-Lipschitz potentials. V.M. Zolotarev has brought the latter formulation to higher orders. And so, given two probabilities \\( \mu,\nu \in \mathcal{P}(\mathbb{R}^d)\\) of finite second moments, the second Zolotarev distance reads,
-
+Famouosly, the classical K-R duality result puts an equality sign between the 1-Wasserstein distance (expressed by the Monge-Kantorovich optimal transport) and a supremum over the set of 1-Lipschitz potentials. V.M. Zolotarev has brought the latter formulation to higher orders. For example, given two probabilities \\( \mu,\nu \in \mathcal{P}(\mathbb{R}^d)\\) of finite second moments, the second Zolotarev distance reads,
 $$
 	Z_2(\mu,\nu) = \sup \left\{ \int u\, d(\mu - \nu) \ : \  u\in C^{1,1}(\mathbb{R}^d), \ \ \mathrm{lip}(\nabla u) \leq 1  \ \right\}
 $$
-
+while \\( Z_1 = W_1 \\). Note that finiteness of \\(Z_2\\) requires a match of the barycentres of the two probabilities. 
 
 $$
 	Z_2(\mu,\nu) = \! \! \! \! \min_{\substack{\gamma \in\mathcal{P}(\mathbb{R}^d \times \mathbb{R}^d) \\\ q \in \mathcal{M}( \mathbb{R}^d \times \mathbb{R}^d;\mathbb{R}^d) }} \! \! \left\{ \iint \frac{1}{2}\Big(\left|\tfrac{dq}{d\gamma}(x,y)-x\right|^2 + \left|\tfrac{dq}{d\gamma}(x,y)-y\right|^2 \Big) d\gamma(x,y) \ : \ \begin{array}{l}
