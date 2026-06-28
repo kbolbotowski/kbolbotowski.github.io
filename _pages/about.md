@@ -12,7 +12,7 @@ More content to come soon!
 
 ## Topic #1: Kantorovich-Rubinstein duality beyond the first order
 
-Famouosly, the classical K-R duality result puts an equality sign between the 1-Wasserstein metric $W_1$ and a supremum over the set of 1-Lipschitz potentials.
+Famouosly, the classical K-R duality result puts an equality sign between the 1-Wasserstein metric $W_1$ (expressed by the Monge-Kantorovich optimal transport) and a supremum over the set of 1-Lipschitz potentials.
 
 $$
 	Z_2(\mu,\nu) = \sup \left\{ \int u\, d(\mu - \nu) \ : \  u\in C^{1,1}(\mathbb{R}^d), \ \ \mathrm{lip}(\nabla u) \leq 1  \ \right\}
