@@ -4,7 +4,9 @@ title: "Mathematics of Optimal Transport and Optimal Design"
 author_profile: true
 ---
 
-I am an assistant professor of mathematics at the University of Warsaw, and my area of expertise lies at the intersection of two fields in the calculus of variations: optimal transport and optimal structural design. The main goal of this webpage is to share some of the research ideas that I have developed together with my collaborators. Feel free to [reach out](/contact/) with questions!
+I am an assistant professor of mathematics at the University of Warsaw, and my area of expertise lies at the intersection of two fields in the calculus of variations: optimal transport and optimal structural design. The main goal of this webpage is to share some of the research ideas that I have developed together with my collaborators.
+
+I invite you to read my [papers](/publications/) for details and to [reach out](/contact/) with questions!
 
 
 ## 1. Kantorovich-Rubinstein duality beyond the first order
