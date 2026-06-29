@@ -17,7 +17,7 @@ $$
 	Z_2(\mu,\nu) := \sup \left\{ \int u\, d(\mu - \nu) \ : \  u\in C^{1,1}(\mathbb{R}^d), \ \ \mathrm{lip}(\nabla u) \leq 1  \ \right\}
 $$
 
-K-R duality tells us that  \\( Z_1 = W_1 \\) can be expressed via the Monge-Kantorovich optimal transport for the distance cost. In a joint <a href="https://arxiv.org/pdf/2412.00516" target="_blank" rel="noopener noreferrer">paper</a> with <a href="https://sites.google.com/site/gbouchitte/" target="_blank" rel="noopener noreferrer">Guy Bouchitté</a> we have found an OT formulation that underpins the second-order case. However, apart from the classical transport plan we also look for a vector-valued coupling,
+K-R duality tells us that  \\( Z_1 = W_1 \\) can be expressed via the Monge-Kantorovich optimal transport (OT) for the distance cost. In a joint <a href="https://arxiv.org/pdf/2412.00516" target="_blank" rel="noopener noreferrer">paper</a> with <a href="https://sites.google.com/site/gbouchitte/" target="_blank" rel="noopener noreferrer">Guy Bouchitté</a> we have found an OT formulation that underpins the second-order case. However, apart from the classical transport plan we also look for a vector-valued coupling,
 
 $$
 	Z_2(\mu,\nu) = \! \! \! \! \min_{\substack{\gamma \in\mathcal{P}(\mathbb{R}^d \times \mathbb{R}^d) \\\ q \in \mathcal{M}( \mathbb{R}^d \times \mathbb{R}^d;\mathbb{R}^d) }} \! \! \left\{ \iint \frac{1}{2}\Big(\left|\tfrac{dq}{d\gamma}(x,y)-x\right|^2 + \left|\tfrac{dq}{d\gamma}(x,y)-y\right|^2 \Big) d\gamma(x,y) \ : \ \begin{array}{l}
