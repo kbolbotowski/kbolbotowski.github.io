@@ -4,7 +4,7 @@ title: "Mathematics of Optimal Transport and Optimal Design"
 author_profile: true
 ---
 
-I am an assistant professor of mathematics at the University of Warsaw [(more info)](/aboutme/), and my area of expertise lies at the intersection of two fields in the calculus of variations: optimal transport and optimal structural design. 
+I am an assistant professor of mathematics at the University of Warsaw, and my area of expertise lies at the intersection of two fields in the calculus of variations: optimal transport and optimal structural design. [(more info)](/aboutme/)
 
 The goal of this webpage is sharing some of the research ideas that I have developed together with my collaborators.
 
