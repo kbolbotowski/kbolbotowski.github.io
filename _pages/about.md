@@ -14,7 +14,10 @@ I invite you to read my [papers](/publications/) for details and to [reach out](
 
 <a id="kantorovich-rubinstein-duality-second-order"></a>
 
-## 1. Kantorovich-Rubinstein duality of the second order
+
+<h2 id="kantorovich-rubinstein-duality-second-order" style="scroll-margin-top: 120px;">
+  1. Kantorovich--Rubinstein duality of the second order
+</h2>
 
 The celebrated K-R theorem states an equality between the 1-Wasserstein distance and a supremum over the set of 1-Lipschitz potentials. V.M. Zolotarev has brought the latter formulation to higher orders. For example, given two *centred* probabilities \\( \mu,\nu \in \mathcal{P}(\mathbb{R}^d)\\) of finite second moments, the 2-Zolotarev distance reads,
 
