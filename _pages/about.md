@@ -3,7 +3,7 @@ permalink: /
 author_profile: true
 ---
 
-I am an assistant professor of mathematics at the University of Warsaw, and my area of expertise lies at the intersection of two fields in the calculus of variations: optimal transport and optimal structural design. [(more info)](/aboutme/)
+I am an assistant professor of mathematics at the University of Warsaw [(more info)](/aboutme/), and my area of expertise lies at the intersection of two fields in the calculus of variations: optimal transport and optimal structural design. 
 
 The goal of this webpage is sharing some of the research ideas that I have developed together with my collaborators. I invite you to read my [papers](/publications/) for details and to [reach out](/contact/) with questions!
 
@@ -11,7 +11,7 @@ The goal of this webpage is sharing some of the research ideas that I have devel
 2. [Optimal design of beam systems via OT](#optimal-design-of-beam-systems-via-ot)
 
 
-<h2 id="kantorovich-rubinstein-duality-second-order" style="scroll-margin-top: 100px;">
+<h2 id="kantorovich-rubinstein-duality-second-order" style="scroll-margin-top: 80px;">
   1. Kantorovich-Rubinstein duality of the second order
 </h2>
 
@@ -44,7 +44,7 @@ where \\(s_\mu, s_\nu\\) are the relevant standard deviations. The constants abo
 
 Our second-order Kantorovich-Rubinstein duality is at the core of some of the topics that I expose below.
 
-<h2 id="optimal-design-of-beam-systems-via-ot" style="scroll-margin-top: 100px;">
+<h2 id="optimal-design-of-beam-systems-via-ot" style="scroll-margin-top: 80px;">
   2. Optimal design of beam systems via OT
 </h2>
 
