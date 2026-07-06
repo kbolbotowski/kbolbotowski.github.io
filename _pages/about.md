@@ -12,8 +12,6 @@ I invite you to read my [papers](/publications/) for details and to [reach out](
 1. [Kantorovich--Rubinstein duality of the second order](#kantorovich-rubinstein-duality-second-order)
 2. [Optimal design of beam systems via optimal transport](#optimal-design-of-beam-systems-via-ot)
 
-<a id="kantorovich-rubinstein-duality-second-order"></a>
-
 
 <h2 id="kantorovich-rubinstein-duality-second-order" style="scroll-margin-top: 120px;">
   1. Kantorovich--Rubinstein duality of the second order
