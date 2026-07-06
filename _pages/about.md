@@ -54,13 +54,11 @@ $$
 \min \left\{  \int  \Arrowvert\sigma\Arrowvert_{\mathrm{Sch},1} :  \sigma \in \mathcal{M}^b\bigl( \mathbb{R}^d;\mathbb{R}^{d \times d}_{\mathrm{sym}} \bigr), \ \ \mathrm{div}^2 \sigma = \mu-\nu \ \text{ in } \mathcal{D}'(\mathbb{R}^d)  \right\}
 $$
 
-$$
-\sigma(\xi) = \iiint \sigma^{x,y,\zeta(x,y)}(\xi) \, d\gamma(x,y), \qquad \text{for} \quad \zeta = \frac{dq}{d\gamma}
-$$
-
-
-
 Above \\(\Arrowvert\,\cdot\,\Arrowvert_{\mathrm{Sch},1} \\) is the <a href="https://en.wikipedia.org/wiki/Schatten_norm" target="_blank" rel="noopener noreferrer">Schatten 1-norm</a> , whereas \\(\mathrm{div}^2 \sigma = \sum_{i,j} \partial_{ij} \sigma_{ij}\\) is understood in the distributional sense.
+
+$$
+\sigma(\xi) = \iiint \sigma^{x,y,\zeta(x,y)}(\xi) \, d\gamma(x,y), \qquad \text{where} \ \ \zeta = \frac{dq}{d\gamma}
+$$
 
 <figure>
   <img src="/images/research/sig7.png" alt="Optimal transport" style="max-width: 70%; display: block; margin: auto;">
