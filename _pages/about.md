@@ -46,7 +46,7 @@ Our second-order Kantorovich-Rubinstein duality is at the core of some of the to
 ## 2. Optimal design of beam systems via OT
 
 $$
-\inf \left\{ \int  \Arrowvert\sigma\Arrowvert_{\mathrm{Sch},1} \   :  \ \sigma \in \mathcal{M}^b\bigl( \mathbb{R}^d;\mathbb{R}^{d \times d}_{\mathrm{sym}} \bigr), \ \ \mathrm{div}^2 \sigma = \mu-\nu \ \text{ in } \mathcal{D}'(\mathbb{R}^d)  \right\}.
+\inf \left\{ \int  \Arrowvert\sigma\Arrowvert_{\mathrm{Sch},1} \   \right\}.
 $$
 
 <figure>
