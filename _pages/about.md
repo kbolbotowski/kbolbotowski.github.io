@@ -9,6 +9,10 @@ The goal of this webpage is sharing some of the research ideas that I have devel
 
 I invite you to read my [papers](/publications/) for details and to [reach out](/contact/) with questions!
 
+1. [Kantorovich--Rubinstein duality of the second order](#kantorovich-rubinstein-duality-second-order)
+2. [Optimal design of beam systems via optimal transport](#optimal-design-of-beam-systems-via-ot)
+
+<a id="kantorovich-rubinstein-duality-second-order"></a>
 
 ## 1. Kantorovich-Rubinstein duality of the second order
 
@@ -41,7 +45,7 @@ where \\(s_\mu, s_\nu\\) are the relevant standard deviations. The constants abo
 
 Our second-order Kantorovich-Rubinstein duality is at the core of some of the topics that I expose below.
 
-
+<a id="optimal-design-of-beam-systems-via-ot"></a>
 
 ## 2. Optimal design of beam systems via OT
 
