@@ -12,9 +12,9 @@ I invite you to read my [papers](/publications/) for details and to [reach out](
 1. [Kantorovich--Rubinstein duality of the second order](#kantorovich-rubinstein-duality-second-order)
 2. [Optimal design of beam systems via optimal transport](#optimal-design-of-beam-systems-via-ot)
 
-<a id="kantorovich-rubinstein-duality-second-order"></a>
 
-## 1. Kantorovich-Rubinstein duality of the second order
+
+## 1. Kantorovich-Rubinstein duality of the second order {#kantorovich-rubinstein-duality-second-order}
 
 The celebrated K-R theorem states an equality between the 1-Wasserstein distance and a supremum over the set of 1-Lipschitz potentials. V.M. Zolotarev has brought the latter formulation to higher orders. For example, given two *centred* probabilities \\( \mu,\nu \in \mathcal{P}(\mathbb{R}^d)\\) of finite second moments, the 2-Zolotarev distance reads,
 
@@ -45,9 +45,7 @@ where \\(s_\mu, s_\nu\\) are the relevant standard deviations. The constants abo
 
 Our second-order Kantorovich-Rubinstein duality is at the core of some of the topics that I expose below.
 
-<a id="optimal-design-of-beam-systems-via-ot"></a>
-
-## 2. Optimal design of beam systems via OT
+## 2. Optimal design of beam systems via OT {#optimal-design-of-beam-systems-via-ot}
 
 
 
