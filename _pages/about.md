@@ -46,7 +46,7 @@ Our second-order Kantorovich-Rubinstein duality is at the core of some of the to
 ## 2. Optimal design of beam systems via OT
 
 $$
-\inf \left\{    \right\}.
+\inf \left\{  \Arrowvert  \right\}.
 $$
 
 <figure>
