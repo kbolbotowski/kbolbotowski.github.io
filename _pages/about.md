@@ -90,7 +90,7 @@ $$
          alt="Data: Lebesgue meaures vs 5 Dirac deltas"
          style="width: 100%; display: block; margin: 0 auto;">
     <figcaption style="width: 100%; margin-top: 0.4em; text-align: center; font-size: 0.9em;">
-      Data: Lebesgue meaures vs 5 Dirac deltas
+      Data: Lebesgue meaures vs 5 Dirac deltas (slab's weight vs reaction forces in the columns)
     </figcaption>
   </figure>
 
