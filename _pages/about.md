@@ -48,10 +48,10 @@ Our second-order Kantorovich-Rubinstein duality is at the core of some of the to
   2. Optimal design of beam systems via OT
 </h2>
 
-STILL UNDER CONSTRUCTION!
+For two probability measures \\( \mu,\nu \in \mathcal{P}(\mathbb{R}^d)\\) consider the minimization problem with respect to a tensor-valued measure,
 
 $$
-\min \left\{  \int  \Arrowvert\sigma\Arrowvert_{\mathrm{Sch},1} :  \sigma \in \mathcal{M}^b\bigl( \mathbb{R}^d;\mathbb{R}^{d \times d}_{\mathrm{sym}} \bigr), \ \ \mathrm{div}^2 \sigma = \mu-\nu \ \text{ in } \mathcal{D}'(\mathbb{R}^d)  \right\}
+\inf \left\{  \int  \Arrowvert\sigma\Arrowvert_{\mathrm{Sch},1} :  \sigma \in \mathcal{M}^b\bigl( \mathbb{R}^d;\mathbb{R}^{d \times d}_{\mathrm{sym}} \bigr), \ \ \mathrm{div}^2 \sigma = \mu-\nu \ \text{ in } \mathcal{D}'(\mathbb{R}^d)  \right\}
 $$
 
 Above \\(\Arrowvert\,\cdot\,\Arrowvert_{\mathrm{Sch},1} \\) is the <a href="https://en.wikipedia.org/wiki/Schatten_norm" target="_blank" rel="noopener noreferrer">Schatten 1-norm</a> , whereas \\(\mathrm{div}^2 \sigma = \sum_{i,j} \partial_{ij} \sigma_{ij}\\) is understood in the distributional sense.
