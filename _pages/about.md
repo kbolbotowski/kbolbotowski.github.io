@@ -60,7 +60,7 @@ Above \\(\Arrowvert\,\cdot\,\Arrowvert_{\mathrm{Sch},1} \\) is the <a href="http
 
 <div style="display: flex; gap: 1.5em; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
-  <figure style="flex: 0 1 45%; margin: 0; text-align: center;">
+  <figure style="flex: 0 1 55%; margin: 0; text-align: center;">
     <img src="/images/research/Gatti.jpg"
          alt="Optimal beam system"
          style="width: 100%; display: block; margin: 0 auto;">
