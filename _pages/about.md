@@ -90,13 +90,13 @@ $$
          alt="Data: Lebesgue meaures vs 5 Dirac deltas"
          style="width: 100%; display: block; margin: 0 auto;">
     <figcaption style="width: 100%; margin-top: 0.4em; text-align: center; font-size: 0.9em;">
-      Gatti Wool Factory, picture by Pier Luigi Nervi, Rome 1953
+      Data: Lebesgue meaures vs 5 Dirac deltas
     </figcaption>
   </figure>
 
   <figure style="flex: 0 1 45%; margin: 0; text-align: center;">
     <img src="/images/research/sig7.png"
-         alt="Optimal beam system"
+         alt="Optimal beam system (discretized data)"
          style="width: 100%; display: block; margin: 0 auto;">
     <figcaption style="width: 100%; margin-top: 0.4em; text-align: center; font-size: 0.9em;">
       Optimal beam system (discretized data)
