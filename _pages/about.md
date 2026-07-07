@@ -57,6 +57,10 @@ $$
 Above \\(\Arrowvert\,\cdot\,\Arrowvert_{\mathrm{Sch},1} \\) is the <a href="https://en.wikipedia.org/wiki/Schatten_norm" target="_blank" rel="noopener noreferrer">Schatten 1-norm</a> , whereas \\(\mathrm{div}^2 \sigma = \sum_{i,j} \partial_{ij} \sigma_{ij}\\) is understood in the distributional sense.
 
 $$
+\sigma^{x,y,z}(\xi) := |\xi-z|\,\Big(\tfrac{x-z}{|x-z|} \! \otimes \! \tfrac{x-z}{|x-z|} \mathcal{H}^1(\xi) [x,z] -  \tfrac{y-z}{|y-z|} \! \otimes \! \tfrac{y-z}{|y-z|} \mathcal{H}^1(\xi) [y,z] \Big)
+$$
+
+$$
 \sigma(\xi) = \iiint \sigma^{x,y,\zeta(x,y)}(\xi) \, d\gamma(x,y), \qquad \text{where} \ \ \zeta = \frac{dq}{d\gamma}
 $$
 
