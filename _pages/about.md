@@ -57,7 +57,7 @@ $$
 Above \\(\Arrowvert\,\cdot\,\Arrowvert_{\mathrm{Sch},1} \\) is the <a href="https://en.wikipedia.org/wiki/Schatten_norm" target="_blank" rel="noopener noreferrer">Schatten 1-norm</a> , whereas \\(\mathrm{div}^2 \sigma = \sum_{i,j} \partial_{ij} \sigma_{ij}\\) is understood in the distributional sense.
 
 $$
-\sigma^{x,y,z}(\xi) := |\xi-z|\,\Big(\tfrac{x-z}{|x-z|} \! \otimes \! \tfrac{x-z}{|x-z|} \mathcal{H}^1(\xi) {\mathbin{\Rule{0.13ex}{1.6ex}{0ex}\Rule{1.3ex}{0.13ex}{0ex}}} [x,z] -  \tfrac{y-z}{|y-z|} \! \otimes \! \tfrac{y-z}{|y-z|} \mathcal{H}^1(\xi) [y,z] \Big)
+\sigma^{x,y,z}(\xi) := |\xi-z|\,\Big(\tfrac{x-z}{|x-z|} \! \otimes \! \tfrac{x-z}{|x-z|} \mathcal{H}^1(\xi) {\, \mathbin{\Rule{0.13ex}{1.6ex}{0ex}\Rule{1.3ex}{0.13ex}{0ex}} \, } [x,z] -  \tfrac{y-z}{|y-z|} \! \otimes \! \tfrac{y-z}{|y-z|} \mathcal{H}^1(\xi) {\, \mathbin{\Rule{0.13ex}{1.6ex}{0ex}\Rule{1.3ex}{0.13ex}{0ex}} \, } [y,z] \Big)
 $$
 
 $$
