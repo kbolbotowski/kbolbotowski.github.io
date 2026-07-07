@@ -99,7 +99,7 @@ $$
          alt="Optimal beam system (discretized data)"
          style="width: 100%; display: block; margin: 0 auto;">
     <figcaption style="width: 100%; margin-top: 0.4em; text-align: center; font-size: 0.9em;">
-      Optimal beam system (discretized data)
+      Optimal beam system (for discretized Lebesgue measure)
     </figcaption>
   </figure>
 
