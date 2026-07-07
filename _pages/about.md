@@ -61,11 +61,11 @@ Above \\(\Arrowvert\,\cdot\,\Arrowvert_{\mathrm{Sch},1} \\) is the <a href="http
 <div style="display: flex; gap: 1.5em; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
   <figure style="flex: 0 1 45%; margin: 0; text-align: center;">
-    <img src="/images/research/Gatti.jpg.png"
+    <img src="/images/research/Gatti.jpg"
          alt="Optimal beam system"
          style="width: 50%; display: block; margin: 0 auto;">
     <figcaption style="width: 50%; margin-top: 0.4em; text-align: center; font-size: 0.9em;">
-      An optimal beam system that transfers the weight of the slab to five columns.
+      Gatti Wool Factory, picture by Pier Luigi Nerv, Rome 1953
     </figcaption>
   </figure>
 
