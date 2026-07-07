@@ -86,7 +86,7 @@ $$
 <div style="display: flex; gap: 1.5em; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
   <figure style="flex: 0 1 45%; margin: 0; text-align: center;">
-    <img src="/images/research/Load.png"
+    <img src="/images/research/Lebvs5.png"
          alt="Data: Lebesgue meaures vs 5 Dirac deltas"
          style="width: 100%; display: block; margin: 0 auto;">
     <figcaption style="width: 100%; margin-top: 0.4em; text-align: center; font-size: 0.9em;">
