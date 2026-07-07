@@ -63,8 +63,8 @@ Above \\(\Arrowvert\,\cdot\,\Arrowvert_{\mathrm{Sch},1} \\) is the <a href="http
   <figure style="flex: 0 1 45%; margin: 0; text-align: center;">
     <img src="/images/research/Gatti.jpg"
          alt="Optimal beam system"
-         style="width: 50%; display: block; margin: 0 auto;">
-    <figcaption style="width: 50%; margin-top: 0.4em; text-align: center; font-size: 0.9em;">
+         style="width: 100%; display: block; margin: 0 auto;">
+    <figcaption style="width: 100%; margin-top: 0.4em; text-align: center; font-size: 0.9em;">
       Gatti Wool Factory, picture by Pier Luigi Nerv, Rome 1953
     </figcaption>
   </figure>
