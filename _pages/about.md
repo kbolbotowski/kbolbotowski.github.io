@@ -85,17 +85,21 @@ $$
 
 <div style="display: flex; gap: 1.5em; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
-  <figure style="flex: 1; min-width: 250px; margin: 0;">
-    <img src="/images/research/Gatti.jpg" alt="Optimal beam system 1" style="width: 100%; display: block;">
-    <figcaption style="text-align: center; font-size: 0.9em;">
-      An optimal beam system that transfers the weight of the slab to five columns.
+  <figure style="flex: 0 1 45%; margin: 0; text-align: center;">
+    <img src="/images/research/Load_Grillage.png"
+         alt="Data: Lebesgue meaures vs 5 Dirac deltas"
+         style="width: 100%; display: block; margin: 0 auto;">
+    <figcaption style="width: 100%; margin-top: 0.4em; text-align: center; font-size: 0.9em;">
+      Gatti Wool Factory, picture by Pier Luigi Nervi, Rome 1953
     </figcaption>
   </figure>
 
-  <figure style="flex: 1; min-width: 250px; margin: 0;">
-    <img src="/images/research/sig7.png" alt="Optimal beam system 2" style="width: 100%; display: block;">
-    <figcaption style="text-align: center; font-size: 0.9em;">
-      Another optimal beam system.
+  <figure style="flex: 0 1 45%; margin: 0; text-align: center;">
+    <img src="/images/research/sig7.png"
+         alt="Optimal beam system"
+         style="width: 100%; display: block; margin: 0 auto;">
+    <figcaption style="width: 100%; margin-top: 0.4em; text-align: center; font-size: 0.9em;">
+      Optimal beam system (discretized data)
     </figcaption>
   </figure>
 
