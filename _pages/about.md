@@ -8,7 +8,7 @@ I am an assistant professor of applied mathematics at the University of Warsaw [
 The goal of this webpage is to provide a concise overview of ideas I have developed together with my collaborators. I invite you to read my [papers](/publications/) for details and to [reach out](/contact/) with questions!
 
 1. [Kantorovich--Rubinstein duality of the second order](#kantorovich-rubinstein-duality-second-order)
-2. [Optimal design of beam systems via OT](#optimal-design-of-beam-systems-via-ot)
+2. [Optimal design of beam systems via Optimal Transport](#optimal-design-of-beam-systems-via-ot)
 
 
 <h2 id="kantorovich-rubinstein-duality-second-order" style="scroll-margin-top: 100px;">
@@ -45,7 +45,7 @@ where \\(s_\mu, s_\nu\\) are the relevant standard deviations. The constants abo
 Our second-order Kantorovich-Rubinstein duality is at the core of some of the topics that I expose below.
 
 <h2 id="optimal-design-of-beam-systems-via-ot" style="scroll-margin-top: 100px;">
-  2. Optimal design of beam systems via OT
+  2. Optimal design of beam systems via Optimal Transport
 </h2>
 
 For two probability measures \\( \mu,\nu \in \mathcal{P}(\mathbb{R}^d)\\) consider the minimization problem with respect to a tensor-valued measure,
@@ -55,8 +55,6 @@ $$
 $$
 
 Above \\(\Arrowvert\,\cdot\,\Arrowvert_{\mathrm{Sch},1} \\) is the <a href="https://en.wikipedia.org/wiki/Schatten_norm" target="_blank" rel="noopener noreferrer">Schatten 1-norm</a>, whereas \\(\mathrm{div}^2 \sigma = \sum_{i,j} \partial_{ij} \sigma_{ij}\\) is understood in the distributional sense. The infimum is finite and is achieved whenever \\(\mu\\) and \\(\nu\\) share the barycentre and have finite second moments.
-
-
 
 <div style="display: flex; gap: 1.5em; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
@@ -71,7 +69,7 @@ Above \\(\Arrowvert\,\cdot\,\Arrowvert_{\mathrm{Sch},1} \\) is the <a href="http
 
 </div>
 
-
+In a plane, \\(d=2\\), the problem has a mechanical interpretation. Solution(s) \\( \sigma \\) encoodes the bending moment tensor in the optimal (stiffest) ceiling. 
 
 
 
