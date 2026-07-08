@@ -11,7 +11,7 @@ The goal of this webpage is to provide a concise overview of ideas I have develo
 2. [Optimal design of beam systems via Optimal Transport](#optimal-design-of-beam-systems-via-ot)
 
 
-<h2 id="kantorovich-rubinstein-duality-second-order" style="scroll-margin-top: 100px;">
+<h2 id="kantorovich-rubinstein-duality-second-order" style="scroll-margin-top: 90px;">
   1. Kantorovich-Rubinstein duality of the second order
 </h2>
 
@@ -44,7 +44,7 @@ where \\(s_\mu, s_\nu\\) are the relevant standard deviations. The constants abo
 
 Our second-order Kantorovich-Rubinstein duality is at the core of some of the topics that I expose below.
 
-<h2 id="optimal-design-of-beam-systems-via-ot" style="scroll-margin-top: 100px;">
+<h2 id="optimal-design-of-beam-systems-via-ot" style="scroll-margin-top: 90px;">
   2. Optimal design of beam systems via Optimal Transport
 </h2>
 
