@@ -69,7 +69,7 @@ Above \\(\Arrowvert\,\cdot\,\Arrowvert_{\mathrm{Sch},1} \\) is the <a href="http
 
 </div>
 
-In a plane, \\(d=2\\), the problem has a mechanical interpretation. Solution(s) \\( \sigma \\) encoodes the bending moment tensor in the optimal (stiffest) ceiling. 
+In a plane, \\(d=2\\), the problem has a mechanical interpretation. Solution(s) \\( \sigma \\) encoodes the <a href="https://en.wikipedia.org/wiki/Bending_of_plates" target="_blank" rel="noopener noreferrer">bending moment tensor</a> in the optimal (stiffest) ceiling. 
 
 
 
