@@ -74,12 +74,12 @@ In a plane (\\(d=2\\)) the problem has a mechanical interpretation. Solution(s) 
 
 <div style="display: flex; gap: 1.5em; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
-  <figure style="flex: 0 1 55%; margin: 0; text-align: center;">
+  <figure style="flex: 0 1 40%; margin: 0; text-align: center;">
     <img src="/images/research/xyz.png"
          alt="Optimal beam system"
          style="width: 100%; display: block; margin: 0 auto;">
     <figcaption style="width: 100%; margin-top: 0.4em; text-align: center; font-size: 0.9em;">
-      Illustration of the tensor measure \\( \sigma^{x,y,z} \\)
+      Illustration of the basic tensor measure
     </figcaption>
   </figure>
 
