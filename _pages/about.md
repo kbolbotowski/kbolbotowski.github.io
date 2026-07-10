@@ -72,7 +72,18 @@ Above \\(\Arrowvert\,\cdot\,\Arrowvert_{\mathrm{Sch},1} \\) is the <a href="http
 In a plane (\\(d=2\\)) the problem has a mechanical interpretation. Solution(s) \\( \sigma \\) is the <a href="https://en.wikipedia.org/wiki/Bending_of_plates" target="_blank" rel="noopener noreferrer">bending moment tensor</a> in the optimal (stiffest) ceiling subject to downward gravity forces \\(\mu \\) and equilbrated by the reaction forces \\( \nu \\) in the columns or walls. This design formulation builds upon the famous <a href="https://hal.science/file/index/docid/528973/filename/bouchitte-gangbo-seppecher.pdf" target="_blank" rel="noopener noreferrer">Michell problem</a> and can be viewed as its plate variant.
 
 
+<div style="display: flex; gap: 1.5em; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
+  <figure style="flex: 0 1 55%; margin: 0; text-align: center;">
+    <img src="/images/research/xyz.png"
+         alt="Optimal beam system"
+         style="width: 100%; display: block; margin: 0 auto;">
+    <figcaption style="width: 100%; margin-top: 0.4em; text-align: center; font-size: 0.9em;">
+      Illustration of the tensor measure \\( \sigma^{x,y,z} \\)
+    </figcaption>
+  </figure>
+
+</div>
 
 
 $$
