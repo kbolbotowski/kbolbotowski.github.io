@@ -73,7 +73,7 @@ In a plane (\\(d=2\\)) the problem has a mechanical interpretation. Solution(s) 
 
 Consider \\(\sigma\\) that concentrates on a 1D set. We say that such \\(\sigma\\) is a finite beam system or a *grillage*. More generally, we call the bending moment measure \\(\sigma\\) a beam system whenever it is a superposition of a (possibly uncountable) family of 1D tensor measures -- beams.
 
-In a <a href="https://arxiv.org/pdf/2412.00516" target="_blank" rel="noopener noreferrer">paper</a> with <a href="https://sites.google.com/site/gbouchitte/" target="_blank" rel="noopener noreferrer">Guy Bouchitté</a> we prove existence of optimal tensors \\(\sigma \\) which are beam systems, with the beams being polygonal chains. More precisely, for the building block we propose
+In a <a href="https://arxiv.org/pdf/2412.00516" target="_blank" rel="noopener noreferrer">paper</a> with <a href="https://sites.google.com/site/gbouchitte/" target="_blank" rel="noopener noreferrer">Guy Bouchitté</a> we proved existence of optimal tensors \\(\sigma \\) which are beam systems, with the beams being polygonal chains. More precisely, for the building block we propose
 
 $$
 \sigma^{x,y,z}(\xi) := |\xi-z|\,\Big(\tfrac{x-z}{|x-z|} \! \otimes \! \tfrac{x-z}{|x-z|} \mathcal{H}^1(\xi) {\, \mathbin{\Rule{0.13ex}{1.6ex}{0ex}\Rule{1.3ex}{0.13ex}{0ex}} \, } [x,z] -  \tfrac{y-z}{|y-z|} \! \otimes \! \tfrac{y-z}{|y-z|} \mathcal{H}^1(\xi) {\, \mathbin{\Rule{0.13ex}{1.6ex}{0ex}\Rule{1.3ex}{0.13ex}{0ex}} \, } [y,z] \Big)
@@ -98,7 +98,7 @@ $$
 \sigma(\xi) = \iiint \sigma^{x,y,\zeta(x,y)}(\xi) \, d\gamma(x,y), \qquad \text{where} \ \ \zeta = \frac{dq}{d\gamma}
 $$
 
-where \\(\gamma \\) is a transport plan between \\(\mu\\) and  \\(\nu\\), and \\(\zeta :(\mathbb{R}^d)^2 \to \mathbb{R}^d \\) is a continuous coupling map. A straightforward consequence of our result is that there is a finite optimal beam system when \\(\mu,\nu \\) are discrete and finitely supported. 
+where \\(\gamma \\) is a transport plan between \\(\mu\\) and  \\(\nu\\), and \\(\zeta :(\mathbb{R}^d)^2 \to \mathbb{R}^d \\) is a continuous coupling map. A straightforward consequence is existence of a finite optimal beam system when \\(\mu,\nu \\) are discrete and finitely supported. This result is in crisp contrast to the Michell problem.
 
 <div style="display: flex; gap: 1.5em; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
