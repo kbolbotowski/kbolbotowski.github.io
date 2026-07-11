@@ -73,7 +73,13 @@ In a plane (\\(d=2\\)) the problem has a mechanical interpretation. Solution(s) 
 
 It may happen that optimal \\(\sigma\\) concentrates on a 1D set. In that case we say that \\(\sigma\\) is a finite beam system or a *grillage*. More generally, the bending moment measure \\(\sigma\\) is a beam system whenever it is a superposition of a (possibly uncountable) family of 1D tensor measures, which represent the beams.
 
-In <a href="https://arxiv.org/pdf/2412.00516" target="_blank" rel="noopener noreferrer">paper</a> with <a href="https://sites.google.com/site/gbouchitte/" target="_blank" rel="noopener noreferrer">Guy Bouchitté</a> we prove that there is at least one optimal tensor \\(\sigma \\) that is a beam system, with the beams being polygonal chains.
+In <a href="https://arxiv.org/pdf/2412.00516" target="_blank" rel="noopener noreferrer">paper</a> with <a href="https://sites.google.com/site/gbouchitte/" target="_blank" rel="noopener noreferrer">Guy Bouchitté</a> we prove that there is at least one optimal tensor \\(\sigma \\) that is a beam system, with the beams being polygonal chains. More precisely, for the building block we propose
+
+$$
+\sigma^{x,y,z}(\xi) := |\xi-z|\,\Big(\tfrac{x-z}{|x-z|} \! \otimes \! \tfrac{x-z}{|x-z|} \mathcal{H}^1(\xi) {\, \mathbin{\Rule{0.13ex}{1.6ex}{0ex}\Rule{1.3ex}{0.13ex}{0ex}} \, } [x,z] -  \tfrac{y-z}{|y-z|} \! \otimes \! \tfrac{y-z}{|y-z|} \mathcal{H}^1(\xi) {\, \mathbin{\Rule{0.13ex}{1.6ex}{0ex}\Rule{1.3ex}{0.13ex}{0ex}} \, } [y,z] \Big)
+$$
+
+for any triple \\(x,y,z \in \mathbb{R}^2 \\). 
 
 <div style="display: flex; gap: 1.5em; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
@@ -86,9 +92,7 @@ In <a href="https://arxiv.org/pdf/2412.00516" target="_blank" rel="noopener nore
 </div>
 
 
-$$
-\sigma^{x,y,z}(\xi) := |\xi-z|\,\Big(\tfrac{x-z}{|x-z|} \! \otimes \! \tfrac{x-z}{|x-z|} \mathcal{H}^1(\xi) {\, \mathbin{\Rule{0.13ex}{1.6ex}{0ex}\Rule{1.3ex}{0.13ex}{0ex}} \, } [x,z] -  \tfrac{y-z}{|y-z|} \! \otimes \! \tfrac{y-z}{|y-z|} \mathcal{H}^1(\xi) {\, \mathbin{\Rule{0.13ex}{1.6ex}{0ex}\Rule{1.3ex}{0.13ex}{0ex}} \, } [y,z] \Big)
-$$
+
 
 $$
 \sigma(\xi) = \iiint \sigma^{x,y,\zeta(x,y)}(\xi) \, d\gamma(x,y), \qquad \text{where} \ \ \zeta = \frac{dq}{d\gamma}
