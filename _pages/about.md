@@ -71,7 +71,7 @@ Above \\(\Arrowvert\,\cdot\,\Arrowvert_{\mathrm{Sch},1} \\) is the <a href="http
 
 In a plane (\\(d=2\\)) the problem has a mechanical interpretation. Solution(s) \\( \sigma \\) is the <a href="https://en.wikipedia.org/wiki/Bending_of_plates" target="_blank" rel="noopener noreferrer">bending moment tensor</a> in the optimal (stiffest) ceiling subject to gravity forces \\(\mu \\) and equilbrated by the upward reaction forces \\( \nu \\) in the columns or walls. This design formulation builds upon the famous <a href="https://hal.science/file/index/docid/528973/filename/bouchitte-gangbo-seppecher.pdf" target="_blank" rel="noopener noreferrer">Michell problem</a> and can be viewed as its plate variant.
 
-It may happen that optimal \\(\sigma\\) concentrates on a 1D set. In that case we say that \\(\sigma\\) is a finite beam system or a *grillage*. More generally, the bending moment measure \\(\sigma\\) is a beam system whenever it is a superposition of a (possibly uncountable) family of 1D tensor measures, which represent the beams.
+It may happen that optimal \\(\sigma\\) concentrates on a 1D set. In that case we say that \\(\sigma\\) is a finite beam system or a *grillage*. More generally, we call the bending moment measure \\(\sigma\\) a beam system whenever it is a superposition of a (possibly uncountable) family of 1D tensor measures -- beams.
 
 In <a href="https://arxiv.org/pdf/2412.00516" target="_blank" rel="noopener noreferrer">paper</a> with <a href="https://sites.google.com/site/gbouchitte/" target="_blank" rel="noopener noreferrer">Guy Bouchitté</a> we prove that there is at least one optimal tensor \\(\sigma \\) that is a beam system, with the beams being polygonal chains. More precisely, for the building block we propose
 
