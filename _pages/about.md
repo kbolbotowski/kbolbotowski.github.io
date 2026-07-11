@@ -122,6 +122,6 @@ where \\(\gamma \\) is a transport plan between \\(\mu\\) and  \\(\nu\\), and \\
 
 </div>
 
-The beating heart of the new geometric insight into optimal desgin of beam systems is our [second-order Kantorovich-Rubinstein duality](#kantorovich-rubinstein-duality-second-order). Firstly, once the condition \\(\mathrm{lip}(\nabla u) \leq 1 \\) is rewritten as the pointwise constraint on the spectral norm of the Hessian, \\(\Arrowvert \nabla^2 u(x) \Arrowvert_{\mathrm{spec}} \leq 1 \text{ for a.e. } x \\), 
+The beating heart of the new geometric insight into optimal desgin of beam systems is our [second-order Kantorovich-Rubinstein duality](#kantorovich-rubinstein-duality-second-order). Firstly, once the condition \\(\mathrm{lip}(\nabla u) \leq 1 \\) is rewritten as the pointwise constraint on the spectral norm of the Hessian, \\(\Arrowvert \nabla^2 u(x) \Arrowvert_{\mathrm{spec}} \leq 1\\) for a.e. \\(x\\), 
 
 
