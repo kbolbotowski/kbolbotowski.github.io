@@ -122,5 +122,6 @@ where \\(\gamma \\) is a transport plan between \\(\mu\\) and  \\(\nu\\), and \\
 
 </div>
 
+The beating heart of the new geometric insight into optimal desgin of beam systems is our [second-order Kantorovich-Rubinstein duality](#kantorovich-rubinstein-duality-second-order). 
 
 
