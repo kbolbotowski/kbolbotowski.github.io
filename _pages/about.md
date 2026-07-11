@@ -79,7 +79,7 @@ $$
 \sigma^{x,y,z}(\xi) := |\xi-z|\,\Big(\tfrac{x-z}{|x-z|} \! \otimes \! \tfrac{x-z}{|x-z|} \mathcal{H}^1(\xi) {\, \mathbin{\Rule{0.13ex}{1.6ex}{0ex}\Rule{1.3ex}{0.13ex}{0ex}} \, } [x,z] -  \tfrac{y-z}{|y-z|} \! \otimes \! \tfrac{y-z}{|y-z|} \mathcal{H}^1(\xi) {\, \mathbin{\Rule{0.13ex}{1.6ex}{0ex}\Rule{1.3ex}{0.13ex}{0ex}} \, } [y,z] \Big)
 $$
 
-for any triple \\(x,y,z \in \mathbb{R}^2 \\). This is a rank one measure concentrating on \\([x,z] \cup [z,y] \\), with linearly varying density that has a positive (blue) and negative part (red): 
+for any triple \\(x,y,z \in \mathbb{R}^d \\). This is a rank one measure concentrating on \\([x,z] \cup [z,y] \\), with linearly varying density that has a positive (blue) and negative (red) part: 
 
 <div style="display: flex; gap: 1.5em; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
@@ -91,12 +91,14 @@ for any triple \\(x,y,z \in \mathbb{R}^2 \\). This is a rank one measure concent
 
 </div>
 
-
+We have shown that at least one of the optimal bending moment tensors is of the form,
 
 
 $$
 \sigma(\xi) = \iiint \sigma^{x,y,\zeta(x,y)}(\xi) \, d\gamma(x,y), \qquad \text{where} \ \ \zeta = \frac{dq}{d\gamma}
 $$
+
+where \\(\gamma \\) is a transport plan between \\(\mu\\) and  \\(\nu\\), and \\(\zeta :(\mathbb{R}^d)^2 \to \mathbb{R}^d \\) is a continuous coupling map.
 
 <div style="display: flex; gap: 1.5em; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
