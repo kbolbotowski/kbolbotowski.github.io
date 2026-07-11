@@ -63,7 +63,7 @@ Above \\(\Arrowvert\,\cdot\,\Arrowvert_{\mathrm{Sch},1} \\) is the <a href="http
          alt="Optimal beam system"
          style="width: 100%; display: block; margin: 0 auto;">
     <figcaption style="width: 100%; margin-top: 0.4em; text-align: center; font-size: 0.9em;">
-      Gatti Wool Factory, picture by Pier Luigi Nervi, Rome 1953
+      Beam syste in Gatti Wool Factory, by Pier Luigi Nervi, Rome 1953
     </figcaption>
   </figure>
 
