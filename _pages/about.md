@@ -79,7 +79,7 @@ $$
 \sigma^{x,y,z}(\xi) := |\xi-z|\,\Big(\tfrac{x-z}{|x-z|} \! \otimes \! \tfrac{x-z}{|x-z|} \mathcal{H}^1(\xi) {\, \mathbin{\Rule{0.13ex}{1.6ex}{0ex}\Rule{1.3ex}{0.13ex}{0ex}} \, } [x,z] -  \tfrac{y-z}{|y-z|} \! \otimes \! \tfrac{y-z}{|y-z|} \mathcal{H}^1(\xi) {\, \mathbin{\Rule{0.13ex}{1.6ex}{0ex}\Rule{1.3ex}{0.13ex}{0ex}} \, } [y,z] \Big)
 $$
 
-for any triple \\(x,y,z \in \mathbb{R}^2 \\). This is a rank one measure concentrating on \\([x,z] \cup [z,y] \\), with linearly varying desnity:
+for any triple \\(x,y,z \in \mathbb{R}^2 \\). This is a rank one measure concentrating on \\([x,z] \cup [z,y] \\), with linearly varying density that has a positive (blue) and negative part (red): 
 
 <div style="display: flex; gap: 1.5em; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
