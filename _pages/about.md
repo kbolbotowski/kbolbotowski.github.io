@@ -9,6 +9,7 @@ The goal of this webpage is to provide a concise overview of ideas I have develo
 
 1. [Kantorovich--Rubinstein duality of the second order](#kantorovich-rubinstein-duality-second-order)
 2. [Optimal design of beam systems via Optimal Transport](#optimal-design-of-beam-systems-via-ot)
+3. [Zolotarev projection in convex order](#Zolotarev-projection)
 
 
 <h2 id="kantorovich-rubinstein-duality-second-order" style="scroll-margin-top: 90px;">
@@ -43,6 +44,9 @@ $$
 where \\(s_\mu, s_\nu\\) are the relevant standard deviations. The constants above are sharp.
 
 Our second-order Kantorovich-Rubinstein duality is at the core of some of the topics that I expose below.
+
+
+
 
 <h2 id="optimal-design-of-beam-systems-via-ot" style="scroll-margin-top: 90px;">
   2. Optimal design of beam systems via Optimal Transport
@@ -130,3 +134,10 @@ $$
 
 where \\(u\\) is any maximizing potential for \\(Z_2(\mu,\nu)\\).
 
+
+
+<h2 id="Zolotarev-projection" style="scroll-margin-top: 90px;">
+  3. Zolotarev projection in convex order
+</h2>
+
+More content to come!
