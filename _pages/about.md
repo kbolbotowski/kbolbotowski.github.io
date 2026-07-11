@@ -95,7 +95,7 @@ We have shown that at least one of the optimal bending moment tensors is of the 
 
 
 $$
-\sigma_{\gamma,\zeta}(\xi) = \iiint \sigma^{x,y,\zeta(x,y)}(\xi) \, d\gamma(x,y), \qquad \text{where} \ \ \zeta = \frac{dq}{d\gamma}
+\sigma(\xi) = \iiint \sigma^{x,y,\zeta(x,y)}(\xi) \, d\gamma(x,y)
 $$
 
 where \\(\gamma \\) is a transport plan between \\(\mu\\) and  \\(\nu\\), and \\(\zeta :(\mathbb{R}^d)^2 \to \mathbb{R}^d \\) is a measurable coupling map. A straightforward consequence is existence of a finite optimal beam system when \\(\mu,\nu \\) are discrete and finitely supported. This result is in crisp contrast to the Michell problem.
@@ -122,7 +122,11 @@ where \\(\gamma \\) is a transport plan between \\(\mu\\) and  \\(\nu\\), and \\
 
 </div>
 
-The beating heart of the new geometric insight into optimal design of beam systems is our [second-order Kantorovich-Rubinstein duality](#kantorovich-rubinstein-duality-second-order). Firstly, once the condition \\(\mathrm{lip}(\nabla u) \leq 1 \\) is rewritten as the pointwise bound on the spectral norm of the Hessian, \\(\Arrowvert \nabla^2 u(x) \Arrowvert_{\mathrm{spec}} \leq 1\\) for a.e. \\(x\\), classical convex duality yields an equality between the minimum in \\(\sigma\\) and \\(Z_2(\mu,\nu)\\). Then, with the new transport formulation for the latter at hand, it is easy to show that its solution \\((\gamma,q) \\) furnishes the beam system \\( \sigma_{\gamma,\zeta}\\) if for \\(\zeta\\) one takes the Radon-Nikodym derivative \\(\frac{dq}{d\gamma}\\).
+The beating heart of the new geometric insight into optimal design of beam systems is our [second-order Kantorovich-Rubinstein duality](#kantorovich-rubinstein-duality-second-order). Firstly, once the condition \\(\mathrm{lip}(\nabla u) \leq 1 \\) is rewritten as the pointwise bound on the spectral norm of the Hessian, \\(\Arrowvert \nabla^2 u(x) \Arrowvert_{\mathrm{spec}} \leq 1\\) for a.e. \\(x\\), classical convex duality yields an equality between the minimum in \\(\sigma\\) and \\(Z_2(\mu,\nu)\\). Then, with the new transport formulation for the latter at hand, it is easy to show that its solution \\((\gamma,q) \\) furnishes the optimal beam system above if for \\(\zeta\\) one takes the Radon-Nikodym derivative \\(\frac{dq}{d\gamma}\\). Moreover, one can show that \\(\gamma\\)-a.e. there must hold,
 
+$$
+\zeta(x,y) = \frac{x+y}{2} + \frac{\nabla u(x) - \nabla u(y)}{2},
+$$
 
+where \\(u\\) is any maximizing potential for \\(Z_2(\mu,\nu)\\).
 
