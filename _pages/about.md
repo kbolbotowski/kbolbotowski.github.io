@@ -71,7 +71,7 @@ Above \\(\Arrowvert\,\cdot\,\Arrowvert_{\mathrm{Sch},1} \\) is the <a href="http
 
 In a plane (\\(d=2\\)) the problem has a mechanical interpretation. Solution(s) \\( \sigma \\) is the <a href="https://en.wikipedia.org/wiki/Bending_of_plates" target="_blank" rel="noopener noreferrer">bending moment tensor</a> in the optimal (stiffest) ceiling subject to gravity forces \\(\mu \\) and equilbrated by the upward reaction forces \\( \nu \\) in the columns or walls. This design formulation builds upon the famous <a href="https://hal.science/file/index/docid/528973/filename/bouchitte-gangbo-seppecher.pdf" target="_blank" rel="noopener noreferrer">Michell problem</a> and can be viewed as its plate variant.
 
-It may happen that optimal \\(\sigma\\) concentrates on a 1D set. In that case we say that \\(\sigma\\) is a beam system or a *grillage*.
+It may happen that optimal \\(\sigma\\) concentrates on a 1D set. In that case we say that \\(\sigma\\) is a finite beam system or a *grillage*. More generally, the bending moment measure \\(\sigma\\) is a beam system whenever it is a superposition of a (possibly uncountable) family of 1D tensor measures, understood in a suitable measure-theoretic sense.
 
 <div style="display: flex; gap: 1.5em; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
