@@ -78,9 +78,6 @@ In a plane (\\(d=2\\)) the problem has a mechanical interpretation. Solution(s) 
     <img src="/images/research/xyz.png"
          alt="Optimal beam system"
          style="width: 100%; display: block; margin: 0 auto;">
-    <figcaption style="width: 100%; margin-top: 0.4em; text-align: center; font-size: 0.9em;">
-      Illustration of the basic tensor measure
-    </figcaption>
   </figure>
 
 </div>
