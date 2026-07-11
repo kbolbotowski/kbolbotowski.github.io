@@ -79,7 +79,7 @@ $$
 \sigma^{x,y,z}(\xi) := |\xi-z|\,\Big(\tfrac{x-z}{|x-z|} \! \otimes \! \tfrac{x-z}{|x-z|} \mathcal{H}^1(\xi) {\, \mathbin{\Rule{0.13ex}{1.6ex}{0ex}\Rule{1.3ex}{0.13ex}{0ex}} \, } [x,z] -  \tfrac{y-z}{|y-z|} \! \otimes \! \tfrac{y-z}{|y-z|} \mathcal{H}^1(\xi) {\, \mathbin{\Rule{0.13ex}{1.6ex}{0ex}\Rule{1.3ex}{0.13ex}{0ex}} \, } [y,z] \Big)
 $$
 
-for any triple \\(x,y,z \in \mathbb{R}^d \\). This is a rank one measure concentrating on \\([x,z] \cup [z,y] \\), with linearly varying density that has a positive (blue) and negative (red) part: 
+for any triple \\(x,y,z \in \mathbb{R}^d \\). This rank-1 measure concentrates on \\([x,z] \cup [z,y] \\), with linearly varying density that has a positive (blue) and negative (red) part: 
 
 <div style="display: flex; gap: 1.5em; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
@@ -122,6 +122,7 @@ where \\(\gamma \\) is a transport plan between \\(\mu\\) and  \\(\nu\\), and \\
 
 </div>
 
-The beating heart of the new geometric insight into optimal desgin of beam systems is our [second-order Kantorovich-Rubinstein duality](#kantorovich-rubinstein-duality-second-order). Firstly, once the condition \\(\mathrm{lip}(\nabla u) \leq 1 \\) is rewritten as the pointwise constraint on the spectral norm of the Hessian, \\(\Arrowvert \nabla^2 u(x) \Arrowvert_{\mathrm{spec}} \leq 1\\) for a.e. \\(x\\), 
+The beating heart of the new geometric insight into optimal desgin of beam systems is our [second-order Kantorovich-Rubinstein duality](#kantorovich-rubinstein-duality-second-order). Firstly, once the condition \\(\mathrm{lip}(\nabla u) \leq 1 \\) is rewritten as the pointwise bound on the spectral norm of the Hessian, \\(\Arrowvert \nabla^2 u(x) \Arrowvert_{\mathrm{spec}} \leq 1\\) for a.e. \\(x\\), classical convex duality yields an equality between the minimum in \\(\sigma\\) and \\(Z_2(\mu,\nu)\\).
+
 
 
