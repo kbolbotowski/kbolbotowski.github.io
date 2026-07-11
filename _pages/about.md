@@ -98,7 +98,7 @@ $$
 \sigma(\xi) = \iiint \sigma^{x,y,\zeta(x,y)}(\xi) \, d\gamma(x,y), \qquad \text{where} \ \ \zeta = \frac{dq}{d\gamma}
 $$
 
-where \\(\gamma \\) is a transport plan between \\(\mu\\) and  \\(\nu\\), and \\(\zeta :(\mathbb{R}^d)^2 \to \mathbb{R}^d \\) is a continuous coupling map.
+where \\(\gamma \\) is a transport plan between \\(\mu\\) and  \\(\nu\\), and \\(\zeta :(\mathbb{R}^d)^2 \to \mathbb{R}^d \\) is a continuous coupling map. A straightforward consequence of our result is that there is a finite optimal beam system when \\(\mu,\nu \\) are discrete and finitely supported. 
 
 <div style="display: flex; gap: 1.5em; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
