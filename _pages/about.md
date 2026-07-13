@@ -157,7 +157,7 @@ Z_2(\mu,\nu) = \min_{\rho \in \mathcal{P}_2(\mathbb{R}^d)} \Big\{ m_2(\rho) \ : 
 $$
 
 $$
-	\operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \mu} Z_2(\nu,\rho) = \operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \mu, \, \rho \succeq_{\mathrm{cx}} \mu} m_2(\rho) = \operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \nu} Z_2(\mu,\rho)
+	\operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \mu} Z_2(\nu,\rho) = \operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \mu, \ \rho \succeq_{\mathrm{cx}} \nu} m_2(\rho) = \operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \nu} Z_2(\mu,\rho)
 $$
 
 
