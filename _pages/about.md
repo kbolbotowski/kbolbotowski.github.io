@@ -140,14 +140,14 @@ where \\(u\\) is any maximizing potential for \\(Z_2(\mu,\nu)\\).
   3. Zolotarev projection in convex order
 </h2>
 
-More content to come!
+Under construction!
 
 $$
 \int \varphi \,d\mu \leq \int \varphi \, d\nu \qquad\text{for all convex } \varphi:\mathbb{R}^d \to \mathbb{R},
 $$
 
 $$
-	\min_{\rho \in \mathcal{P}_2(\mathbb{R}^d)} \Big\{ Z_2(\nu,\rho) \ : \ \nu \preceq_{\mathrm{cx}} \rho \Big\}
+	\min_{\rho \in \mathcal{P}_2(\mathbb{R}^d)} \Big\{ Z_2(\nu,\rho) \ : \ \mu \preceq_{\mathrm{cx}} \rho \Big\}
 $$
 
 
