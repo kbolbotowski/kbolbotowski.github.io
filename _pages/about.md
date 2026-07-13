@@ -155,3 +155,8 @@ Z_2(\mu,\nu) = \min_{\rho \in \mathcal{P}_2(\mathbb{R}^d)} \Big\{ m_2(\rho) \ : 
 $$
 
 
+$$
+\alpha_{\preceq_{cx}}(\mu\,|\,\nu) :=  \frac{m_2(\nu)-m_2(\mu)}{2 Z_2(\mu,\nu)} \ \in \ [-1,1].
+$$
+
+
