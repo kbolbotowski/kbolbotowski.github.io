@@ -160,6 +160,9 @@ $$
 	\operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \mu} \ Z_2(\nu,\rho) = \operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \mu, \ \rho \succeq_{\mathrm{cx}} \nu} m_2(\rho) = \operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \nu}  \ Z_2(\mu,\rho)
 $$
 
+$$
+\rho = \zeta^\# \gamma
+$$
 
 $$
 \alpha_{\preceq_{cx}}(\mu\,|\,\nu) :=  \frac{m_2(\nu)-m_2(\mu)}{2 Z_2(\mu,\nu)} \ \in \ [-1,1].
