@@ -141,3 +141,7 @@ where \\(u\\) is any maximizing potential for \\(Z_2(\mu,\nu)\\).
 </h2>
 
 More content to come!
+
+$$
+\int \varphi \,d\mu \leq \int \varphi \, d\nu \qquad\text{for all convex } \varphi:\mathbb{R}^d \to \mathbb{R},
+$$
