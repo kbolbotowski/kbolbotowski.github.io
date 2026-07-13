@@ -150,12 +150,14 @@ $$
 	\min_{\rho \in \mathcal{P}_2(\mathbb{R}^d)} \Big\{ Z_2(\nu,\rho) \ : \ \nu \preceq_{\mathrm{cx}} \rho \Big\}
 $$
 
-$$
-	\operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \mu}
-$$
+
 
 $$
 Z_2(\mu,\nu) = \min_{\rho \in \mathcal{P}_2(\mathbb{R}^d)} \Big\{ m_2(\rho) \ : \  \mu \preceq_{\mathrm{cx}} \rho, \ \ \nu \preceq_{\mathrm{cx}} \rho \Big\} - \frac{m_2(\mu) + m_2(\nu)}{2},
+$$
+
+$$
+	\operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \mu} Z_2(\nu,\rho) = \operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \mu, \, \rho \succeq_{\mathrm{cx}} \mu} m_2(\rho) = \operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \nu} Z_2(\mu,\rho)
 $$
 
 
