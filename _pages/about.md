@@ -147,5 +147,5 @@ $$
 $$
 
 $$
-\min\Big\{ \int |x|^2 d\rho(x) \, : \, \rho \in \mathcal{P}_2(\Rd), \ \ \rho \succeq_{\mathrm{cx}} \mu, \ \ \rho \succeq_{\mathrm{cx}} \nu \Big\},
+Z_2(\mu,\nu) = \min \left\{ m_2(\rho) \, : \, \rho \in \mathcal{P}_2(\Rd), \ \ \rho \succeq_{\mathrm{cx}} \mu, \ \ \rho \succeq_{\mathrm{cx}} \nu \right\} - \frac{m_2(\mu) + m_2(\nu)}{2},
 $$
