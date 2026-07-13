@@ -147,5 +147,5 @@ $$
 $$
 
 $$
-Z_2(\mu,\nu) = \min \left\{ m_2(\rho) \, : \, \rho \in \mathcal{P}_2(\Rd), \ \ \rho \succeq_{\mathrm{cx}} \mu, \ \ \rho \succeq_{\mathrm{cx}} \nu \right\} - \frac{m_2(\mu) + m_2(\nu)}{2},
+Z_2(\mu,\nu) = \min \left\{ m_2(\rho) \, : \, \rho \in \mathcal{P}_2(\mathbb{R}^d), \ \ \mu \preceq_{\mathrm{cx}} \rho, \ \ \nu \preceq_{\mathrm{cx}} \rho \right\} - \frac{m_2(\mu) + m_2(\nu)}{2},
 $$
