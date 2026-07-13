@@ -145,3 +145,7 @@ More content to come!
 $$
 \int \varphi \,d\mu \leq \int \varphi \, d\nu \qquad\text{for all convex } \varphi:\mathbb{R}^d \to \mathbb{R},
 $$
+
+$$
+\min\Big\{ \int |x|^2 d\rho(x) \, : \, \rho \in \mathcal{P}_2(\Rd), \ \ \rho \succeq_{\mathrm{cx}} \mu, \ \ \rho \succeq_{\mathrm{cx}} \nu \Big\},
+$$
