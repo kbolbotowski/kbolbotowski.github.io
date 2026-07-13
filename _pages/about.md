@@ -151,7 +151,7 @@ $$
 $$
 
 $$
-	\argmin
+	\operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \mu}
 $$
 
 $$
