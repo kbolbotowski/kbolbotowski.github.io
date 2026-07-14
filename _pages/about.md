@@ -202,7 +202,8 @@ $$
 \alpha_{\preceq_{\mathrm{cx}}}(\mu\,|\,\nu) :=  \frac{m_2(\nu)-m_2(\mu)}{2 Z_2(\mu,\nu)} \ \in \ [-1,1]
 $$
 
-Then, one can show that \\(\mu \preceq_{\mathrm{cx}} \nu \\) if and only if this index equals \\(1\\), and \\(\nu \preceq_{\mathrm{cx}} \mu \\) if and only if it equals \\(-1\\). The divergences from the the extreme values measure the level of violations of the relevant convex orders in the sense of the normalized Zolotarev projection cost: 
+One can show that \\(\mu \preceq_{\mathrm{cx}} \nu \\) if and only if this index equals \\(1\\), and \\(\nu \preceq_{\mathrm{cx}} \mu \\) if and only if it equals \\(-1\\). More importantly, the divergences from the the extreme values measure the level of violations of the relevant convex orders in the sense of the normalized Zolotarev projection cost:
+
 $$
 \frac{\min_{\rho \succeq_{\mathrm{cx}} \mu} Z_2(\nu,\rho) }{	Z_2(\mu,\nu) }  = \frac{1- \alpha_{\preceq_{\mathrm{cx}}}(\mu\,|\,\nu)  }{2}, \qquad 
 \frac{\min_{\rho \succeq_{\mathrm{cx}} \nu} Z_2(\mu,\rho) }{	Z_2(\mu,\nu) }  = \frac{1+ \alpha_{\preceq_{\mathrm{cx}}}(\mu\,|\,\nu)  }{2}.
