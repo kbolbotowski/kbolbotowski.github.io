@@ -194,7 +194,7 @@ is a Zolotarev projection.
          alt="Zolotarev projection in convex order"
          style="width: 100%; display: block; margin: 0 auto;">
     <figcaption style="width: 100%; margin-top: 0.4em; text-align: center; font-size: 0.9em;">
-      Optimal beam system (for discretized Lebesgue measure)
+      Zolotarev projection in convex order
     </figcaption>
   </figure>
 
