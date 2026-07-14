@@ -172,7 +172,7 @@ $$
 	\operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \mu} \ Z_2(\nu,\rho) = \operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \mu, \ \rho \succeq_{\mathrm{cx}} \nu} m_2(\rho) = \operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \nu}  \ Z_2(\mu,\rho)
 $$
 
-It is remarkable that projecting onto the cone \\( \\{\mu \preceq_{\mathrm{cx}} \cdot  \\} \\) provides the second dominance \\( \nu \preceq_{\mathrm{cx}} \rho \\) by the optimality. On top of that, the central problem above is equivalent to the new optimal transport formulation emerging through our second-order Kantorovich-Rubinstein duality in the following sense. If the pair \\( (\gamma,q) \\) is a solution and \\(\zeta = \frac{dq}{d\gamma} \\), then
+It is remarkable that projecting onto the cone \\( \\{\mu \preceq_{\mathrm{cx}} \cdot  \\} \\) provides the second dominance \\( \nu \preceq_{\mathrm{cx}} \rho \\) by the optimality. On top of that, the central problem above is equivalent to the new optimal transport formulation emerging through our [second-order Kantorovich-Rubinstein duality](#kantorovich-rubinstein-duality-second-order) in the following sense. If the pair \\( (\gamma,q) \\) is a solution and \\(\zeta = \frac{dq}{d\gamma} \\), then
 
 $$
 \rho = \zeta^\# \gamma
