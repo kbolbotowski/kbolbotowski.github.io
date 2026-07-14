@@ -196,13 +196,13 @@ It is remarkable that projecting onto the cone \\( \\{\mu \preceq_{\mathrm{cx}} 
 
 The examples of Zolotarev projections I have studied so far point to their geometric nature. In 2D, for instance, one should expect \\(\rho \\) to consist of absolutely continuous, 1D Hausdorff, and atomic parts, even if the data \\(\mu,\nu \\) have smooth densities.
 
-The foregoing intimate connections bring about another convenient fact. For given \\(\mu,\nu \\) with the same barycentre, the 2-Zolotarev distance itself checks for convex order: in one direction and another. I propose the *convex order index*,
+The foregoing intimate connections bring about another convenient fact. For given \\(\mu,\nu \\) with the same barycentre, the 2-Zolotarev distance itself checks for convex order: in one direction and another. I propose the scale-invariant *convex order index*,
 
 $$
 \alpha_{\preceq_{\mathrm{cx}}}(\mu\,|\,\nu) :=  \frac{m_2(\nu)-m_2(\mu)}{2 Z_2(\mu,\nu)} \ \in \ [-1,1]
 $$
 
-One can show that \\(\mu \preceq_{\mathrm{cx}} \nu \\) if and only if this index equals \\(1\\), and \\(\nu \preceq_{\mathrm{cx}} \mu \\) if and only if it equals \\(-1\\). More importantly, the divergences from the the extreme values measure the level of violations of the relevant convex orders in the sense of the normalized Zolotarev projection cost:
+One can show that \\(\mu \preceq_{\mathrm{cx}} \nu \\) if and only if this index equals \\(1\\), and \\(\nu \preceq_{\mathrm{cx}} \mu \\) if and only if it equals \\(-1\\). More importantly, the divergences from \\(1\\) and \\(-1\\) measure the level of violations of the relevant convex orders in the sense of the normalized Zolotarev projection cost:
 
 $$
 \frac{\min_{\rho \succeq_{\mathrm{cx}} \mu} Z_2(\nu,\rho) }{	Z_2(\mu,\nu) }  = \frac{1- \alpha_{\preceq_{\mathrm{cx}}}(\mu\,|\,\nu)  }{2}, \qquad 
