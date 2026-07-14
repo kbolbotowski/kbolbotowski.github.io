@@ -176,7 +176,7 @@ $$
 \rho = \zeta^\# \gamma
 $$
 
-is a Zolotarev projection: of \\(\nu \\) onto \\( \\{\mu \preceq_{\mathrm{cx}} \cdot  \\} \\) and, *at the same time*, the one of \\(\mu \\) onto \\( \\{\nu \preceq_{\mathrm{cx}} \cdot  \\} \\). The OT framework leads to powerful computational methods of finding \\(\rho \\).
+is a Zolotarev projection: of \\(\nu \\) onto \\( \\{\mu \preceq_{\mathrm{cx}} \cdot  \\} \\) and, *at the same time*, the one of \\(\mu \\) onto \\( \\{\nu \preceq_{\mathrm{cx}} \cdot  \\} \\). This OT framework leads to powerful computational methods of finding \\(\rho \\).
 
 <div style="display: flex; gap: 1.5em; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
