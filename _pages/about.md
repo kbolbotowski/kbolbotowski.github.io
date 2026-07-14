@@ -202,7 +202,10 @@ $$
 \alpha_{\preceq_{\mathrm{cx}}}(\mu\,|\,\nu) :=  \frac{m_2(\nu)-m_2(\mu)}{2 Z_2(\mu,\nu)} \ \in \ [-1,1].
 $$
 
-Then, one can show that \\(\mu \preceq_{\mathrm{cx}} \nu \\) if and only if this index is equal to \\(1\\), and \\(\nu \preceq_{\mathrm{cx}} \mu \\) if and only if it is equal to \\(-1\\).
+Then, one can show that \\(\mu \preceq_{\mathrm{cx}} \nu \\) if and only if this index equals \\(1\\), and \\(\nu \preceq_{\mathrm{cx}} \mu \\) if and only if it equals \\(-1\\).
+
+
+
 <!--
 
 On top of that, the central problem above is equivalent to the new optimal transport formulation emerging through our [second-order Kantorovich-Rubinstein duality](#kantorovich-rubinstein-duality-second-order) in the following sense. If the pair \\( (\gamma,q) \\) is a solution and \\(\zeta = \frac{dq}{d\gamma} \\), then
