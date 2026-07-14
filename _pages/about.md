@@ -150,7 +150,7 @@ $$
 
 Convex order implies a match of the barycentres. Moreover, the dominating measure has a non-smaller variance (covariance matrix, more accurately). It is a stronger condition altogether, and <a href="https://staff.fnwi.uva.nl/a.khedher/winterschool/20slidesPages.pdf" target="_blank" rel="noopener noreferrer">Strassen’s theorem</a> gives its complete characterization in terms of martingale couplings.
 
-The convex order is fragile from the computational perspective -- it is easily lost e.g. upon sampling. Scenarios where convex order between the data is indispensable (the <a href="https://arxiv.org/pdf/1106.5929" target="_blank" rel="noopener noreferrer">martingale optimal transport</a> problem, for instance) call for its systematic restoration.
+The convex order is fragile from the computational perspective -- it is easily lost e.g. upon sampling. Thus, scenarios where convex order between the data is indispensable (the <a href="https://arxiv.org/pdf/1106.5929" target="_blank" rel="noopener noreferrer">martingale optimal transport</a> problem, for instance) call for its systematic restoration.
 
 Addressing this issue, in my <a href="https://arxiv.org/pdf/2510.27451" target="_blank" rel="noopener noreferrer">paper</a> I study the problem of Zolotarev projection of a probability \\(\nu\\) onto the cone of measures dominating \\( \mu \\) for convex order,
 
@@ -158,7 +158,7 @@ $$
 	\min_{\rho \in \mathcal{P}(\mathbb{R}^d)} \Big\{ Z_2(\nu,\rho) \ : \ \mu \preceq_{\mathrm{cx}} \rho \Big\}
 $$
 
-This problem is well posed as long as \\(\mu,\nu \\) have finite second moments and share their barycentres. Then, if \\( \mu \npreceq_{\mathrm{cx}} \nu\\), the idea is to replace \\( \nu \\) with the minimizer \\( \rho \\).
+This problem is well posed as long as \\(\mu,\nu \\) have finite second moments and share their barycentres. Then, if \\( \mu \npreceq_{\mathrm{cx}} \nu\\), the idea is to replace \\( \nu \\) with the minimizer \\( \rho \\). This technique is very much inspired by the works on the a href="https://projecteuclid.org/journals/annales-de-linstitut-henri-poincare-probabilites-et-statistiques/volume-56/issue-3/Sampling-of-probability-measures-in-the-convex-order-by-Wasserstein/10.1214/19-AIHP1014.pdf" target="_blank" rel="noopener noreferrer">Wasserstein projection</a>, where, simply, instead of \\(Z_2\\) one takes \\(W_2\\).
 
 
 $$
