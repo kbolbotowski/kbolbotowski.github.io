@@ -196,6 +196,8 @@ It is remarkable that projecting onto the cone \\( \\{\mu \preceq_{\mathrm{cx}} 
 
 The examples of Zolotarev projections I have studied so far point to their geometric nature. In 2D, for instance, one should expect \\(\rho \\) to consist of absolutely continuous, 1D Hausdorff, and atomic parts, even if the data \\(\mu,\nu \\) have smooth densities.
 
+The foregoing intimate connections bring about another convenient fact. For given \\(\mu,\nu \\) with the same barycentre, the 2-Zolotarev distance itself carries the information about the degree of violation of the convex order: in one direction and the other. 
+
 <!--
 
 On top of that, the central problem above is equivalent to the new optimal transport formulation emerging through our [second-order Kantorovich-Rubinstein duality](#kantorovich-rubinstein-duality-second-order) in the following sense. If the pair \\( (\gamma,q) \\) is a solution and \\(\zeta = \frac{dq}{d\gamma} \\), then
