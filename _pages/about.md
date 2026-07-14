@@ -166,6 +166,8 @@ $$
 Z_2(\mu,\nu) = \min_{\rho \in \mathcal{P}(\mathbb{R}^d)} \Big\{ m_2(\rho) \ : \  \mu \preceq_{\mathrm{cx}} \rho, \ \ \nu \preceq_{\mathrm{cx}} \rho \Big\} - \frac{m_2(\mu) + m_2(\nu)}{2},
 $$
 
+where \\(m_2(\rho) = \int \abs{x}^2 d\rho(x) \\) is the second moment. This equality allowed me to notice a remarkable symmetry in the Zolotarev projection problem:
+
 $$
 	\operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \mu} \ Z_2(\nu,\rho) = \operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \mu, \ \rho \succeq_{\mathrm{cx}} \nu} m_2(\rho) = \operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \nu}  \ Z_2(\mu,\rho)
 $$
