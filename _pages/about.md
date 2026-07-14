@@ -148,6 +148,10 @@ $$
 \int \varphi \,d\mu \leq \int \varphi \, d\nu \qquad\text{for all convex } \varphi:\mathbb{R}^d \to \mathbb{R}.
 $$
 
+Convex order implies match of the barycentres. Moreover, the dominating measure has a non-smaller variance (covariance matrix, more generally). 
+
+The convex order is fragile from the computational perspective -- it is easily lost e.g. upon sampling. At the same time, 
+
 $$
 	\min_{\rho \in \mathcal{P}_2(\mathbb{R}^d)} \Big\{ Z_2(\nu,\rho) \ : \ \mu \preceq_{\mathrm{cx}} \rho \Big\}
 $$
