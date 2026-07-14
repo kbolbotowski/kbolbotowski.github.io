@@ -152,16 +152,17 @@ Convex order implies a match of the barycentres. Moreover, the dominating measur
 
 The convex order is fragile from the computational perspective -- it is easily lost e.g. upon sampling. Scenarios where convex order between the data is indispensable (the <a href="https://arxiv.org/pdf/1106.5929" target="_blank" rel="noopener noreferrer">martingale optimal transport</a> problem, for instance) call for its systematic restoration.
 
-In my <a href="https://arxiv.org/pdf/2510.27451" target="_blank" rel="noopener noreferrer">paper</a> I study the problem of Zolotarev projection of a probability \\(\nu\\) onto the cone of measures dominating \\( \mu \\) for convex order,
+Addressing this issue, in my <a href="https://arxiv.org/pdf/2510.27451" target="_blank" rel="noopener noreferrer">paper</a> I study the problem of Zolotarev projection of a probability \\(\nu\\) onto the cone of measures dominating \\( \mu \\) for convex order,
 
 $$
-	\min_{\rho \in \mathcal{P}_2(\mathbb{R}^d)} \Big\{ Z_2(\nu,\rho) \ : \ \mu \preceq_{\mathrm{cx}} \rho \Big\}
+	\min_{\rho \in \mathcal{P}(\mathbb{R}^d)} \Big\{ Z_2(\nu,\rho) \ : \ \mu \preceq_{\mathrm{cx}} \rho \Big\}
 $$
 
+This problem is well posed as long as \\(\mu,\nu \\) have finite second moments and share their barycentres. Then, if \\( \mu \npreceq_{\mathrm{cx}} \nu\\), the idea is to replace \\( \nu \\) with the minimizer \\( \rho \\).
 
 
 $$
-Z_2(\mu,\nu) = \min_{\rho \in \mathcal{P}_2(\mathbb{R}^d)} \Big\{ m_2(\rho) \ : \  \mu \preceq_{\mathrm{cx}} \rho, \ \ \nu \preceq_{\mathrm{cx}} \rho \Big\} - \frac{m_2(\mu) + m_2(\nu)}{2},
+Z_2(\mu,\nu) = \min_{\rho \in \mathcal{P}(\mathbb{R}^d)} \Big\{ m_2(\rho) \ : \  \mu \preceq_{\mathrm{cx}} \rho, \ \ \nu \preceq_{\mathrm{cx}} \rho \Big\} - \frac{m_2(\mu) + m_2(\nu)}{2},
 $$
 
 $$
