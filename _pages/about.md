@@ -142,10 +142,10 @@ where \\(u\\) is any maximizing potential for \\(Z_2(\mu,\nu)\\).
 
 Under construction!
 
-We say that a pair of probability measures $\mu,\nu \in \mathcal{P}(\mathbb{R}^d)$ of finite first order is in convex order, written \\(\mu \preceq_{\mathrm{cx}} \nu \\) if,
+We say that a pair of probability measures \\(\mu,\nu \in \mathcal{P}(\mathbb{R}^d)\\) of finite first order is in convex order, written \\(\mu \preceq_{\mathrm{cx}} \nu \\) if,
 
 $$
-\int \varphi \,d\mu \leq \int \varphi \, d\nu \qquad\text{for all convex } \varphi:\mathbb{R}^d \to \mathbb{R},
+\int \varphi \,d\mu \leq \int \varphi \, d\nu \qquad\text{for all convex } \varphi:\mathbb{R}^d \to \mathbb{R}.
 $$
 
 $$
