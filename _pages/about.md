@@ -185,7 +185,7 @@ is a Zolotarev projection.
          alt="Data: Lebesgue meaures vs 5 Dirac deltas"
          style="width: 100%; display: block; margin: 0 auto;">
     <figcaption style="width: 100%; margin-top: 0.4em; text-align: center; font-size: 0.9em;">
-      The Lebesgue meaures does not dominate the 5 Dirac deltas in convex order
+      The Lebesgue meaures does not dominate the five Dirac deltas in convex order
     </figcaption>
   </figure>
 
