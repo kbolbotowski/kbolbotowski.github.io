@@ -158,7 +158,9 @@ $$
 	\min_{\rho \in \mathcal{P}(\mathbb{R}^d)} \Big\{ Z_2(\nu,\rho) \ : \ \mu \preceq_{\mathrm{cx}} \rho \Big\}
 $$
 
-This problem is well posed as long as \\(\mu,\nu \\) have finite second moments and share their barycentres. Then, if \\( \mu \npreceq_{\mathrm{cx}} \nu\\), the idea is to replace \\( \nu \\) with the minimizer \\( \rho \\). This technique is very much inspired by the works on the a href="https://projecteuclid.org/journals/annales-de-linstitut-henri-poincare-probabilites-et-statistiques/volume-56/issue-3/Sampling-of-probability-measures-in-the-convex-order-by-Wasserstein/10.1214/19-AIHP1014.pdf" target="_blank" rel="noopener noreferrer">Wasserstein projection</a>, where, simply, instead of \\(Z_2\\) one takes \\(W_2\\).
+This problem is well posed as long as \\(\mu,\nu \\) have finite second moments and share their barycentres. Then, if \\( \mu \npreceq_{\mathrm{cx}} \nu\\), the idea is to replace \\( \nu \\) with the minimizer \\( \rho \\).
+
+This technique is very much inspired by the works on the <a href="https://projecteuclid.org/journals/annales-de-linstitut-henri-poincare-probabilites-et-statistiques/volume-56/issue-3/Sampling-of-probability-measures-in-the-convex-order-by-Wasserstein/10.1214/19-AIHP1014.pdf" target="_blank" rel="noopener noreferrer">Wasserstein projection</a>, where, simply, instead of \\(Z_2\\) one takes \\(W_2\\).
 
 
 $$
