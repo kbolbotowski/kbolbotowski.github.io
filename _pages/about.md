@@ -196,8 +196,13 @@ It is remarkable that projecting onto the cone \\( \\{\mu \preceq_{\mathrm{cx}} 
 
 The examples of Zolotarev projections I have studied so far point to their geometric nature. In 2D, for instance, one should expect \\(\rho \\) to consist of absolutely continuous, 1D Hausdorff, and atomic parts, even if the data \\(\mu,\nu \\) have smooth densities.
 
-The foregoing intimate connections bring about another convenient fact. For given \\(\mu,\nu \\) with the same barycentre, the 2-Zolotarev distance itself carries the information about the degree of violation of the convex order: in one direction and the other. 
+The foregoing intimate connections bring about another convenient fact. For given \\(\mu,\nu \\) with the same barycentre, the 2-Zolotarev distance itself carries the information about the degree of violation of the convex order: in one direction and another. Indeed, I propose the *convex order index*,
 
+$$
+\alpha_{\preceq_{\mathrm{cx}}}(\mu\,|\,\nu) :=  \frac{m_2(\nu)-m_2(\mu)}{2 Z_2(\mu,\nu)} \ \in \ [-1,1].
+$$
+
+Then, one can show that \\(\mu \preceq_{\mathrm{cx}} \nu \\) if and only if this index is equal to \\(1\\), and \\(\nu \preceq_{\mathrm{cx}} \mu \\) if and only if it is equal to \\(-1\\).
 <!--
 
 On top of that, the central problem above is equivalent to the new optimal transport formulation emerging through our [second-order Kantorovich-Rubinstein duality](#kantorovich-rubinstein-duality-second-order) in the following sense. If the pair \\( (\gamma,q) \\) is a solution and \\(\zeta = \frac{dq}{d\gamma} \\), then
@@ -207,11 +212,5 @@ $$
 $$
 
 is a Zolotarev projection: of \\(\nu \\) onto \\( \\{\mu \preceq_{\mathrm{cx}} \cdot  \\} \\) and, *at the same time*, the one of \\(\mu \\) onto \\( \\{\nu \preceq_{\mathrm{cx}} \cdot  \\} \\). This OT framework leads to powerful computational methods of finding \\(\rho \\).
-
-
-
-$$
-\alpha_{\preceq_{\mathrm{cx}}}(\mu\,|\,\nu) :=  \frac{m_2(\nu)-m_2(\mu)}{2 Z_2(\mu,\nu)} \ \in \ [-1,1].
-$$
 
 -->
