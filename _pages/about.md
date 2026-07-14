@@ -170,9 +170,7 @@ $$
 	\operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \mu} \ Z_2(\nu,\rho) = \operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \mu, \ \rho \succeq_{\mathrm{cx}} \nu} m_2(\rho) = \operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \nu}  \ Z_2(\mu,\rho)
 $$
 
-It is remarkable that projecting onto the cone \\( \\{\mu \preceq_{\mathrm{cx}} \cdot  \\} \\) provides the second dominance \\( \nu \preceq_{\mathrm{cx}} \rho \\) by the optimality. In other words, solution \\( \rho \\) of the central problem is a Zolotarev projection: of \\(\nu \\) onto \\( \\{\mu \preceq_{\mathrm{cx}} \cdot  \\} \\) and, *at the same time*, the one of \\(\mu \\) onto \\( \\{\nu \preceq_{\mathrm{cx}} \cdot  \\} \\).
-
-
+It is remarkable that projecting onto the cone \\( \\{\mu \preceq_{\mathrm{cx}} \cdot  \\} \\) provides the second dominance \\( \nu \preceq_{\mathrm{cx}} \rho \\) by the optimality. In other words, solution \\( \rho \\) of the central problem is a Zolotarev projection: of \\(\nu \\) onto \\( \\{\mu \preceq_{\mathrm{cx}} \cdot  \\} \\) and, at the same time, the one of \\(\mu \\) onto \\( \\{\nu \preceq_{\mathrm{cx}} \cdot  \\} \\).
 
 <div style="display: flex; gap: 1.5em; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
@@ -196,6 +194,7 @@ It is remarkable that projecting onto the cone \\( \\{\mu \preceq_{\mathrm{cx}} 
 
 </div>
 
+The examples of Zolotarev projections I have studied so far point to their geometric nature. In 2D, for instance, one should expect \\(\rho \\) to consist of absolutely continuous, 1D Hausdorff, and atomic parts, even if the data \\(\mu,\nu \\) have smooth densities.
 
 <!--
 
