@@ -196,7 +196,7 @@ It is remarkable that projecting onto the cone \\( \\{\mu \preceq_{\mathrm{cx}} 
 
 The examples of Zolotarev projections I have studied so far point to their geometric nature. In 2D, for instance, one should expect \\(\rho \\) to consist of absolutely continuous, 1D Hausdorff, and atomic parts, even if the data \\(\mu,\nu \\) have smooth densities.
 
-The foregoing intimate connections bring about another convenient fact. For given \\(\mu,\nu \\) with the same barycentre, the 2-Zolotarev distance itself carries the information about the degree of violation of the convex order: in one direction and another. Indeed, I propose the *convex order index*,
+The foregoing intimate connections bring about another convenient fact. For given \\(\mu,\nu \\) with the same barycentre, the 2-Zolotarev distance itself carries the information about the degree of violation of the convex order: in one direction and another. I propose the *convex order index*,
 
 $$
 \alpha_{\preceq_{\mathrm{cx}}}(\mu\,|\,\nu) :=  \frac{m_2(\nu)-m_2(\mu)}{2 Z_2(\mu,\nu)} \ \in \ [-1,1].
