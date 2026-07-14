@@ -163,10 +163,10 @@ This problem is well posed as long as \\(\mu,\nu \\) have finite second moments 
 This technique is very much inspired by the works on the <a href="https://projecteuclid.org/journals/annales-de-linstitut-henri-poincare-probabilites-et-statistiques/volume-56/issue-3/Sampling-of-probability-measures-in-the-convex-order-by-Wasserstein/10.1214/19-AIHP1014.pdf" target="_blank" rel="noopener noreferrer">Wasserstein projection in convex order</a>, where, simply, instead of \\(Z_2\\) one takes \\(W_2\\). The difference is that the 2-Zolotarev distance is inherently connected to the notion of convex orded. Indeed, as we showed in our <a href="https://arxiv.org/pdf/2412.00516" target="_blank" rel="noopener noreferrer">paper</a> with <a href="https://sites.google.com/site/gbouchitte/" target="_blank" rel="noopener noreferrer">Guy Bouchitté</a>,
 
 $$
-Z_2(\mu,\nu) = \min_{\rho \in \mathcal{P}(\mathbb{R}^d)} \Big\{ m_2(\rho) \ : \  \mu \preceq_{\mathrm{cx}} \rho, \ \ \nu \preceq_{\mathrm{cx}} \rho \Big\} - \frac{m_2(\mu) + m_2(\nu)}{2},
+Z_2(\mu,\nu) = \min_{\rho \in \mathcal{P}(\mathbb{R}^d)} \Big\{ m_2(\rho) \ : \  \mu \preceq_{\mathrm{cx}} \rho, \ \ \nu \preceq_{\mathrm{cx}} \rho \Big\} - \frac{m_2(\mu) + m_2(\nu)}{2}
 $$
 
-where \\(m_2(\rho) = \int |x|^2 d\rho(x) \\) is the second moment. This identity allowed me to notice an unexpected symmetry in the Zolotarev projection problem:
+where \\(m_2(\rho) = \int \vert x \vert^2 d\rho(x) \\) is the second moment. This identity allowed me to notice an unexpected symmetry in the Zolotarev projection problem:
 
 $$
 	\operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \mu} \ Z_2(\nu,\rho) = \operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \mu, \ \rho \succeq_{\mathrm{cx}} \nu} m_2(\rho) = \operatorname*{arg\,min}_{\rho \succeq_{\mathrm{cx}} \nu}  \ Z_2(\mu,\rho)
