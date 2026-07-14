@@ -150,7 +150,7 @@ Convex order implies a match of the barycentres. Moreover, the dominating measur
 
 The convex order is fragile from the computational perspective -- it is easily lost e.g. upon sampling. Thus, scenarios where convex order between the data is indispensable (the <a href="https://arxiv.org/pdf/1106.5929" target="_blank" rel="noopener noreferrer">martingale optimal transport</a> problem, for instance) call for its systematic restoration.
 
-Addressing this issue, in my <a href="https://arxiv.org/pdf/2510.27451" target="_blank" rel="noopener noreferrer">paper</a> I study the problem of Zolotarev projection of a probability \\(\nu\\) onto the cone of measures dominating \\( \mu \\) for convex order,
+Addressing this issue, in my <a href="https://arxiv.org/pdf/2510.27451" target="_blank" rel="noopener noreferrer">paper</a> I study the problem of [2-Zolotarev](#kantorovich-rubinstein-duality-second-order) projection of a probability \\(\nu\\) onto the cone of measures dominating \\( \mu \\) for convex order,
 
 $$
 	\min_{\rho \in \mathcal{P}(\mathbb{R}^d)} \Big\{ Z_2(\nu,\rho) \ : \ \mu \preceq_{\mathrm{cx}} \rho \Big\}
@@ -204,6 +204,10 @@ $$
 
 Then, one can show that \\(\mu \preceq_{\mathrm{cx}} \nu \\) if and only if this index equals \\(1\\), and \\(\nu \preceq_{\mathrm{cx}} \mu \\) if and only if it equals \\(-1\\).
 
+$$
+\frac{\min_{\rho \succeq_{\mathrm{cx}} \mu} Z_2(\nu,\rho) }{	Z_2(\mu,\nu) }  = \frac{1- \alpha_{\preceq_{\mathrm{cx}}}(\mu\,|\,\nu)  }{2}, \qquad 
+\frac{\min_{\rho \succeq_{\mathrm{cx}} \nu} Z_2(\mu,\rho) }{	Z_2(\mu,\nu) }  = \frac{1+ \alpha_{\preceq_{\mathrm{cx}}}(\mu\,|\,\nu)  }{2},
+$$
 
 
 <!--
