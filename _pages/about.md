@@ -176,7 +176,7 @@ $$
 \rho = \zeta^\# \gamma
 $$
 
-is a Zolotarev projection. 
+is a Zolotarev projection -- of \\(\nu \\) onto \\( \\{\mu \preceq_{\mathrm{cx}} \cdot  \\} \\) or the one of \\(\mu \\) onto \\( \\{\nu \preceq_{\mathrm{cx}} \cdot  \\} \\).
 
 <div style="display: flex; gap: 1.5em; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
