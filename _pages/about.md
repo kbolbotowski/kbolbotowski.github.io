@@ -146,7 +146,7 @@ $$
 \int \varphi \,d\mu \leq \int \varphi \, d\nu \qquad\text{for all convex } \varphi:\mathbb{R}^d \to \mathbb{R}.
 $$
 
-Convex order implies a match of the barycentres. Moreover, the dominating measure has a non-smaller variance (covariance matrix, more accurately). It is a stronger condition altogether, and <a href="https://staff.fnwi.uva.nl/a.khedher/winterschool/20slidesPages.pdf" target="_blank" rel="noopener noreferrer">Strassen’s theorem</a> gives its complete characterization in terms of martingale couplings.
+Convex order implies a match of the barycentres. Moreover, the dominating measure has a non-smaller variance (covariance matrix, more generally). It is a stronger condition altogether, and <a href="https://staff.fnwi.uva.nl/a.khedher/winterschool/20slidesPages.pdf" target="_blank" rel="noopener noreferrer">Strassen’s theorem</a> gives its complete characterization in terms of martingale couplings.
 
 The convex order is fragile from the computational perspective -- it is easily lost e.g. upon sampling. Thus, scenarios where convex order between the data is indispensable (the <a href="https://arxiv.org/pdf/1106.5929" target="_blank" rel="noopener noreferrer">martingale optimal transport</a> problem, for instance) call for its systematic restoration.
 
