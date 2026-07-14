@@ -173,13 +173,6 @@ $$
 It is remarkable that projecting onto the cone \\( \\{\mu \preceq_{\mathrm{cx}} \cdot  \\} \\) provides the second dominance \\( \nu \preceq_{\mathrm{cx}} \rho \\) by the optimality. In other words, solution \\( \rho \\) of the central problem is a Zolotarev projection: of \\(\nu \\) onto \\( \\{\mu \preceq_{\mathrm{cx}} \cdot  \\} \\) and, *at the same time*, the one of \\(\mu \\) onto \\( \\{\nu \preceq_{\mathrm{cx}} \cdot  \\} \\).
 
 
-On top of that, the central problem above is equivalent to the new optimal transport formulation emerging through our [second-order Kantorovich-Rubinstein duality](#kantorovich-rubinstein-duality-second-order) in the following sense. If the pair \\( (\gamma,q) \\) is a solution and \\(\zeta = \frac{dq}{d\gamma} \\), then
-
-$$
-\rho = \zeta^\# \gamma
-$$
-
-is a Zolotarev projection: of \\(\nu \\) onto \\( \\{\mu \preceq_{\mathrm{cx}} \cdot  \\} \\) and, *at the same time*, the one of \\(\mu \\) onto \\( \\{\nu \preceq_{\mathrm{cx}} \cdot  \\} \\). This OT framework leads to powerful computational methods of finding \\(\rho \\).
 
 <div style="display: flex; gap: 1.5em; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
@@ -203,8 +196,21 @@ is a Zolotarev projection: of \\(\nu \\) onto \\( \\{\mu \preceq_{\mathrm{cx}} \
 
 </div>
 
+
+<!--
+
+On top of that, the central problem above is equivalent to the new optimal transport formulation emerging through our [second-order Kantorovich-Rubinstein duality](#kantorovich-rubinstein-duality-second-order) in the following sense. If the pair \\( (\gamma,q) \\) is a solution and \\(\zeta = \frac{dq}{d\gamma} \\), then
+
+$$
+\rho = \zeta^\# \gamma
+$$
+
+is a Zolotarev projection: of \\(\nu \\) onto \\( \\{\mu \preceq_{\mathrm{cx}} \cdot  \\} \\) and, *at the same time*, the one of \\(\mu \\) onto \\( \\{\nu \preceq_{\mathrm{cx}} \cdot  \\} \\). This OT framework leads to powerful computational methods of finding \\(\rho \\).
+
+
+
 $$
 \alpha_{\preceq_{\mathrm{cx}}}(\mu\,|\,\nu) :=  \frac{m_2(\nu)-m_2(\mu)}{2 Z_2(\mu,\nu)} \ \in \ [-1,1].
 $$
 
-
+-->
