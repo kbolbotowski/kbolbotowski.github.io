@@ -150,7 +150,9 @@ $$
 
 Convex order implies a match of the barycentres. Moreover, the dominating measure has a non-smaller variance (covariance matrix, more accurately). It is a stronger condition altogether, and <a href="https://staff.fnwi.uva.nl/a.khedher/winterschool/20slidesPages.pdf" target="_blank" rel="noopener noreferrer">Strassen’s theorem</a> gives its complete characterization in terms of martingale couplings.
 
-The convex order is fragile from the computational perspective -- it is easily lost e.g. upon sampling. Scenarios where convex order between the data is indispensable (the <a href="https://arxiv.org/pdf/1106.5929" target="_blank" rel="noopener noreferrer">martingale optimal transport</a> problem, for instance) call for its restoration. 
+The convex order is fragile from the computational perspective -- it is easily lost e.g. upon sampling. Scenarios where convex order between the data is indispensable (the <a href="https://arxiv.org/pdf/1106.5929" target="_blank" rel="noopener noreferrer">martingale optimal transport</a> problem, for instance) call for its systematic restoration.
+
+In my <a href="https://arxiv.org/pdf/2510.27451" target="_blank" rel="noopener noreferrer">paper</a> I study the problem of Zolotarev projection of a probability \\(\nu\\) onto the cone of measures dominating \\( \mu \\) for convex order,
 
 $$
 	\min_{\rho \in \mathcal{P}_2(\mathbb{R}^d)} \Big\{ Z_2(\nu,\rho) \ : \ \mu \preceq_{\mathrm{cx}} \rho \Big\}
