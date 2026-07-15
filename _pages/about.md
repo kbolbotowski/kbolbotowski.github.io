@@ -140,7 +140,7 @@ where \\(u\\) is any maximizing potential for \\(Z_2(\mu,\nu)\\).
   3. Zolotarev projection in convex order
 </h2>
 
-We say that a pair of probability measures \\(\mu,\nu \in \mathcal{P}(\mathbb{R}^d)\\) of finite first moment is in convex order, written \\(\mu \preceq_{\mathrm{cx}} \nu \\) if,
+We say that a pair of probability measures \\(\mu,\nu \in \mathcal{P}(\mathbb{R}^d)\\) of finite first moments is in convex order, written \\(\mu \preceq_{\mathrm{cx}} \nu \\) if,
 
 $$
 \int \varphi \,d\mu \leq \int \varphi \, d\nu \qquad\text{for all convex } \varphi:\mathbb{R}^d \to \mathbb{R}.
