@@ -188,7 +188,7 @@ It is remarkable that projecting onto the cone \\( \\{\mu \preceq_{\mathrm{cx}} 
          alt="Zolotarev projection in convex order"
          style="width: 100%; display: block; margin: 0 auto;">
     <figcaption style="width: 100%; margin-top: 0.4em; text-align: center; font-size: 0.9em;">
-      Zolotarev projection in convex order consists of abs. cont., 1D, and atomic parts
+      Zolotarev projection in convex order consists of abs. continuous, 1D, and atomic parts
     </figcaption>
   </figure>
 
